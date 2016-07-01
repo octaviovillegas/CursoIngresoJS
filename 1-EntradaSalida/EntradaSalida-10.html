@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Curso Ingreso UTN FRA</title>
+
+		<!--Estilos-->
+		<link rel="stylesheet" type="text/css" href="../estilo.css">
+		<link rel="stylesheet" type="text/css" href="../animacion.css">
+		<!--final de Estilos-->
+		
+		<!--Lógica-Programación-->
+		<script type="text/javascript" src="jsEntradaSalida-10.js"></script>
+        <!--Final de Lógica-Programación -->
+		
+
+	</head>
+	<body>
+		<div class="CajaUno animated bounceInDown">
+			<h1>Ingrese el importe </h1>
+			<form id="FormIngreso">
+
+				<input type="text"  placeholder="Ingrese importe" id="importe">
+
+				<input type="text" readonly  placeholder="Resultado" id="resultado">
+				
+			</form>
+			
+		</div>
+		<div class="CajaUno animated bounceInLeft">
+			
+		
+			
+			<button  class="MiBotonUTN" onclick="MostrarAumento()" >Mostrar  descuento</button>
+
+		</div>
+
+		<div class="CajaEnunciado animated bounceInLeft">
+			<h2>Enunciado:</h2>
+			
+				<h3>
+					Debemos lograr tomar el importe por ID.
+					</br>Transformarlo a entero (parseInt), luego
+					</br>mostrar el importe con un Descuento del 25 %. en el cuadro de texto "RESULTADO"
+				</h3>
+			
+			
+		</div>
+
+		<div class="CajaAbajo animated bounceInUp">
+			<a  class="MiBotonUTNLinea" onclick="location.href='index.html'" >Men&uacute; ejercicios</a>	
+		</div>
+	</body>
+</html>

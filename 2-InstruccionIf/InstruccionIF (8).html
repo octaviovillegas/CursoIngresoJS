@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Curso Ingreso UTN FRA</title>
+
+		<!--Estilos-->
+		<link rel="stylesheet" type="text/css" href="../estilo.css">
+		<link rel="stylesheet" type="text/css" href="../animacion.css">
+		<!--final de Estilos-->
+
+		<!--Lógica-Programación-->
+		<script type="text/javascript" src="jsInstruccionIF (8).js"></script>
+        <!--Final de Lógica-Programación -->
+		
+
+	</head>
+	
+	<body>
+		<div class="CajaUno animated bounceInDown">
+			
+			<h1>Ingrese su edad y estado civil </h1>
+			<form id="FormIngreso">
+
+				<input type="text"  placeholder="Ingrese su edad" id="edad">
+
+				<select id="estadoCivil">
+					<option value="Soltero"> Soltero </option>
+					<option value="Casado"> Casado </option>
+					<option value="Divorciado"> Divorciado </option>
+				</select>
+
+				
+			</form>
+			
+		</div>
+		<div class="CajaUno animated bounceInLeft">
+			
+		
+			
+			<button  class="MiBotonUTNLinea" onclick="Mostrar()" >Mostrar  informaci&oacute;n</button>
+
+		</div>
+
+		<div class="CajaEnunciado animated bounceInLeft">
+			<h2>Enunciado:</h2>
+			
+				<h3>
+					Al ingresar una edad menor a 18 años y 
+					un estado civil distinto a "Soltero", NO HACER NADA,
+					</br>pero si no es asi, y es soltero y no es menor, 
+					mostrar el siguiente mensaje: 'Es soltero y no es menor.' 
+				
+				</h3>
+			
+			
+		</div>
+
+		<div class="CajaAbajo animated bounceInUp">
+			<a  class="MiBotonUTNLinea" onclick="location.href='index.html'" >Men&uacute; ejercicios</a>	
+		</div>
+	</body>
+</html>
