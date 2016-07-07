@@ -19,11 +19,21 @@ else
 		alert("Usted no es adolescente");
 	}
 */
-if(edad>=17)
+if(edad<=17)
 	{
-		if(edad<);
-		{
-
-		}
+	
 	}
+		else
+			{
+				alert("Usted no es adolescente");
+			}	
+				if(edad>=13)
+				{
+
+				}
+else
+	{
+		alert("Usted no es adolescente");
+	}
+		
 }//FIN DE LA FUNCIÓN
