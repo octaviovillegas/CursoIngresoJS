@@ -36,9 +36,9 @@ if(edad<13)
 	}
 	else
 	{
-		if(edad>18)
+		if(edad>17)
 		{
-			alert("Es menor");
+			alert("Es mayor");
 		}
 		else
 		{
