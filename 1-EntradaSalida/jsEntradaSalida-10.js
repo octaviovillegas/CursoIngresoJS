@@ -7,5 +7,5 @@ function MostrarAumento()
 var importe=document.getElementById('importe').value;
 var importeNumeroEntero=parseInt(importe);
 var resultado=importeNumeroEntero-importeNumeroEntero*0.25;
-document.getElementById('resultado').value=resultado;
+document.getElementById('resultado').value=+resultado;
 }
