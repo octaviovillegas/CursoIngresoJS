@@ -24,6 +24,7 @@ else
 	}
 }
 */
+/*
 if(edad<18)
 {
 }	
@@ -37,5 +38,15 @@ else
 	{
 	}
 }
-
+*/
+if(edad>17)
+{
+	if(estadoCivil=="Soltero")
+	{
+		alert("Es soltero y no es menor");
+	}
+	/*else
+	{
+	}*/	
+}
 }//FIN DE LA FUNCIÓN

@@ -13,8 +13,8 @@ if(edad<18)
 			alert("Es muy pequeño para NO ser soltero");
 		}	
 	}
-else
+/*else
 	{
 
-	}
+	}*/
 }//FIN DE LA FUNCIÓN
