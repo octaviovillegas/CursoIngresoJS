@@ -10,10 +10,10 @@ switch(horario)
 	case 9:
 	case 10:
 	case 11:
-	{
+	
 		alert("Es de mañana");
 		break;
-	}
+	
 	case 12:
 	case 13:
 	case 14:
@@ -22,10 +22,10 @@ switch(horario)
 	case 17:
 	case 18:
 	case 19:
-	{
+	
 		alert("Es de tarde");
 		break;
-	}
+	
 	case 20:
 	case 21:
 	case 22:
@@ -38,13 +38,13 @@ switch(horario)
 	case 4:
 	case 5:
 	case 6:
-	{
+	
 		alert("Es de noche");
 		break;
-	}
+	
 	default:
-	{
+	
 		alert("La hora no existe");
-	}
+	
 }
 }//FIN DE LA FUNCIÓN
