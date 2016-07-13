@@ -4,17 +4,17 @@ function Mostrar()
 var numeroRandom=Math.floor((Math.random()*10)+1);
 if(numeroRandom>=9)
 {
-	document.getElementById('elNombre').value="EXCELENTE";
+	alert("EXCELENTE: "+numeroRandom);
 }	
 else
 {
 	if(numeroRandom>=4)
 	{
-		document.getElementById('elNombre').value="APROBO"
+		alert("APROBO :"+numeroRandom);
 	}
 	else
 	{
-		document.getElementById('elNombre').value="Vamos, la proxima se puede";
+		alert("Vamos, la proxima se puede: "+numeroRandom);
 	}
 }
 }//FIN DE LA FUNCIÓN

@@ -11,7 +11,7 @@ switch(horario)
 	case 10:
 	case 11:
 	{
-		alert("Es de ma;ana");
+		alert("Es de mañana");
 		break;
 	}
 	case 12:

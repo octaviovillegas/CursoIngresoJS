@@ -25,7 +25,9 @@ switch(mesDelAño)
 		break;
 	}
 }
-
-
-
+/*si pongo:
+var mes=documet.getElementById('mes').value;
+alert(mes);
+me va a mostrar el mes que seleccioné.
+*/
 }//FIN DE LA FUNCIÓN

@@ -14,6 +14,9 @@ switch(mesDelAño)
 	case "Junio":
 	case "Mayo":
 	case "Abril":
+	case "Marzo":
+	case "Febrero":
+	case "Enero":
 	{
 		alert("Falta para el invierno");
 		break;
