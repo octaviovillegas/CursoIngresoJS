@@ -10,5 +10,96 @@ E.	Si el importe final con descuento suma más de $120  se debe sumar un 10% de 
  */
 function CalcularPrecio () 
 {
- 	
+var cantidad=document.getElementById('Cantidad').value;
+var marca=document.getElementById('Marca').value;
+var precioBruto=cantidad*35;
+var descuento;
+/*if(cantidad>=6)
+{
+	document.getElementById('precioDescuento').value=precio-precio*0.5;
 }
+else
+{	
+	if(cantidad==5)
+	{
+			if(marca=="ArgentinaLuz")
+			{
+				document.getElementById('precioDescuento').value=precio-precio*0.4;
+			}
+			else
+			{
+				document.getElementById('precioDescuento').value=precio-precio*0.3;
+			}
+	}
+	if(cantidad==4)
+	{
+		if(marca=="ArgentinaLuz")
+		{
+			document.getElementById('precioDescuento').value=precio-precio*0.2;
+		}
+	}
+}
+*/
+switch(marca)
+{
+	case "ArgentinaLuz":
+		if(cantidad==3)
+		{			
+			descuento=0.85;		
+		}
+		else
+		{
+			if(cantidad==4)
+			{				
+				 descuento=0.75;								
+			}
+			else
+			{
+				if(cantidad==5)
+				{
+					descuento=0.60;
+				}
+				else
+				{
+					descuento=0.5;
+				}
+			}
+		}
+		break;
+	case "“FelipeLamparas”":
+		if(cantidad==3)
+		{
+			descuento=0.9;
+		}
+		else
+		{
+			if(cantidad==4)
+			{
+				descuento=0.75
+			}
+			else
+			{
+				if(cantidad==5)
+				{
+					descuento=0.30;
+				}
+				else
+				{
+					descuento=0.50;
+				}
+			}
+		}
+		break;
+	case "JeLuz":
+	if(cantidad==3)
+	{
+		
+	}
+var precioNeto=precioBruto*descuento;
+document.getElementById('precioDescuento').value=precioNeto;	
+
+	
+
+}//switch(marca)
+
+}//function CalcularPrecio ()
