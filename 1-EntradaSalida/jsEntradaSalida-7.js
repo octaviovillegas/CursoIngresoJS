@@ -5,8 +5,8 @@ ej.: "la Resta es 750"*/
 function sumar()
 {	
 	    var a;
-        var b;
-        var resultado;
+            var b;
+            var resultado;
                 a=document.getElementById("numeroUno").value;
                 a=parseInt (a);
                 b=document.getElementById("numeroDos").value;
