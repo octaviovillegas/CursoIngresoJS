@@ -10,10 +10,12 @@ var edad;
         alert("Usted es Menor de Edad")
     }
          if (edad>=13 && edad <=17) {
+       
         alert ("usted es adolescente")
         
      }
          else (edad >18)
+        
          alert ("usted es mayor")
-         
+
 }//FIN DE LA FUNCIÓN
