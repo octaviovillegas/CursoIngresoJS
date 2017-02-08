@@ -5,13 +5,15 @@ var edad;
     
     edad=document.getElementById("edad").value;
     
-    if(edad >=18 )
+         if(edad <=12)
     {
-        alert("Usted es Mayor de Edad.")
+        alert("Usted es Menor de Edad")
     }
-     else{
-         (edad < 13) 
-         alert("Usted es un Niño")
+         if (edad>=13 && edad <=17) {
+        alert ("usted es adolescente")
+        
      }
-     
+         else (edad >18)
+         alert ("usted es mayor")
+         
 }//FIN DE LA FUNCIÓN
