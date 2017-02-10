@@ -5,7 +5,7 @@ function Mostrar()
 
 	nota = Math.floor(Math.random()*(11-1)) + 1
 
-	if (nota >=10){
+	if (nota >=9){
 			alert (nota+ " EXELENTE")
 	}
 	else if (nota <4){

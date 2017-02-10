@@ -13,7 +13,7 @@ function FahrenheitCentigrados ()
     temperatura=((grados - 32)*(5/9));
         temperatura=parseInt(temperatura);
         
-        alert(temperatura)
+        alert(grados + " grados Fahrenheit son " +temperatura +"grados Centigrados")
 }
 
 function CentigradosFahrenheit () 
