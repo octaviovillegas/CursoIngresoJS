@@ -20,25 +20,23 @@ function CalcularPrecio ()
  	lampara=parseInt(lampara);
  	precio=35;
  	precio=parseInt(precio);
+ 	preciototal=lampara*precio;
  	switch (lampara)
  	{
  		case 5:
  		{
- 			preciototal=lampara*precio;
  			switch (modelo)
  			{
  				case "ArgentinaLuz":
  				{
  					preciototal2=(preciototal*40)/100;
  					preciototal=preciototal-preciototal2;
- 					document.getElementById("precioDescuento").value=preciototal;
  					break;
  				}
  				default:
  				{
  					preciototal2=(preciototal*30)/100;
  					preciototal=preciototal-preciototal2;
- 					document.getElementById("precioDescuento").value=preciototal;
  					break;
  				}
  			}	
@@ -46,18 +44,52 @@ function CalcularPrecio ()
  		}
  		case 4:
  		{
- 			if("ArgentinaLuz" || "“FelipeLamparas”")
+ 			if(modelo=="ArgentinaLuz" || modelo=="FelipeLamparas")
  			{
  				preciototal2=(preciototal*25)/100;
  				preciototal=preciototal-preciototal2;
- 				document.getElementById("precioDescuento").value=preciototal;
  			}
  			else
  			{
  				preciototal2=(preciototal*20)/100;
  				preciototal=preciototal-preciototal2;
- 				document.getElementById("precioDescuento").value=preciototal;
  			}
+ 		break;
+ 		}
+ 		case 3:
+ 		{
+ 			if (modelo=="ArgentinaLuz") 
+ 			{
+ 				preciototal2=(preciototal*15)/100;
+ 				preciototal=preciototal-preciototal2;
+ 			}
+ 			else if (modelo=="FelipeLamparas")
+ 			{
+ 				preciototal2=(preciototal*10)/100;
+ 				preciototal=preciototal-preciototal2;
+ 			}
+ 			else 
+ 			{
+ 				preciototal2=(preciototal*5)/100;
+ 				preciototal=preciototal-preciototal2;
+ 			}
+ 		break;
+ 		}
+ 		default:
+ 		{
+ 			if (lampara>=6) 
+ 			{
+ 				preciototal2=(preciototal*50)/100;
+ 				preciototal=preciototal-preciototal2;
+ 			}
+ 		break;
  		}
  	}
+ 	if (preciototal>=120)
+ 		{
+ 			preciototal2=(preciototal/10)
+ 			preciototal=preciototal2+preciototal
+ 		}
+ 	document.getElementById("precioDescuento").value=preciototal;
+ 	alert ("Usted pago "+preciototal2+" de IIBB");
 }

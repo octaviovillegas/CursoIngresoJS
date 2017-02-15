@@ -1,9 +1,10 @@
 function Mostrar()
 {
 	var numero;
-	while (numero>=0 && numero<=9)
+	numero = prompt("ingrese un número entre 0 y 9.");
+	while (numero>"9" || numero<"0")  
 	{
 		numero = prompt("ingrese un número entre 0 y 9.");
-		numero = document.getElementById('Numero');
+		document.getElementById('Numero').value=numero
 	}
 }//FIN DE LA FUNCIÓN
