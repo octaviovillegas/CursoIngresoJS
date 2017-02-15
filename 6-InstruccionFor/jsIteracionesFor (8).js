@@ -3,17 +3,23 @@ function Mostrar()
 	var num;
 	var primo;
 	var noPrimo;
-	num=parseInt(prompt("ingrese un numero."));
+	
 
-	for (var i =1; i<=num ; i++) 
+	for (var i =1; i>=0 ; i++) 
 	{
+		num=parseInt(prompt("ingrese un numero."));
 		if(num%2 ==0){
 			console.log("el numero "+num+" es primo");
+			document.getElementById('')
 		}
 		else
 		{
-			console.log(num+" este numero NO es primo")
+			console.log("el numero "+num+" NO es primo")
 
+	    }
+	    if(isNaN(num))
+	    {
+	    	break;
 	    }
     }
 
