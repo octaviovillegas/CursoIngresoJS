@@ -8,18 +8,23 @@ var h;
 var r;
 function Rectangulo () 
 {
-	b = parseFloat(document.getElementById("Largo").value);
-	h = parseFloat(document.getElementById("Ancho").value);
+	b = document.getElementById("Largo").value;
+	b = parseFloat(b);
+	h = document.getElementById("Ancho").value;
+	h = parseFloat(h);
 	alert("la cantidad de alambre necesario es: " + (2*(b + h) * 3) + " metros");
 }
 function Circulo () 
 {
-	r = parseFloat(document.getElementById("Radio").value);
-	alert("la cantidad de alambre necesario" + (2*Math.PI*r) + " metros");
+	r = document.getElementById("Radio").value;
+	r = parseFloat(r);
+	alert("la cantidad de alambre necesario " + (2*Math.PI*r * 3) + " metros");
 }
 function Materiales () 
 {
-	b = parseFloat(document.getElementById("Largo").value);
-	h = parseFloat(document.getElementById("Ancho").value);
+	b = document.getElementById("Largo").value;
+	b = parseFloat(b);
+	h = document.getElementById("Ancho").value;
+	h = parseFloat(h);
 	alert("necesita " + (b*h*2) + " bolsas de cemento y " + (b*h*3) + " bolsas de cal");
 }
