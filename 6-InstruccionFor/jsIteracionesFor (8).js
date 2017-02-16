@@ -1,20 +1,27 @@
 function Mostrar()
 {
 	var num;
-	var primo;
-	var noPrimo;
-	num=parseInt(prompt("ingrese un numero."));
+	var continuar=true;
+    
+	
 
-	for (var i =1; i<=num ; i++) 
+	for (var i =1; i>=0 ; i++) 
 	{
-		if(num%2 ==0){
+        num=parseInt(prompt("ingrese un numero."));
+		if(num%2 == 0)
+        {
 			console.log("el numero "+num+" es primo");
 		}
-		else
+		else if(num%2!= 0)
 		{
-			console.log(num+" este numero NO es primo")
+			console.log("este numero "+num+" NO es primo");
 
 	    }
+        continuar = confirm("quiere ingresar otro numero?");
+        if(continuar == false)
+        {
+            break;
+        }
     }
 
 
