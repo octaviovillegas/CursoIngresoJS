@@ -16,13 +16,14 @@ function CalcularPrecio ()
  	var valorFinal;
  	var impuesto
 
- 	numLamp= document.getElementById('Cantidad').value;
+ 	numLamp= parseInt(document.getElementById('Cantidad').value);
  	marca= document.getElementById('Marca').value;
+
+ 	var valorNormal= precio*numLamp;
 
  	if(numLamp>=6)
  	{
- 		valorFinal= (precio*numLamp)*0.5;
- 		console.log(valorFinal);
+ 		valorFinal= valorNormal*0.5;
  		if(valorFinal>120)
  		{
  		    impuesto=valorFinal*0.1;
@@ -34,8 +35,7 @@ function CalcularPrecio ()
  	}
  	else if(numLamp<=2)
  	{
- 		valorFinal= (precio*numLamp);
- 		console.log(valorFinal);
+ 		valorFinal= valorNormal;
 
  	}
  	else if(numLamp==5)
@@ -44,13 +44,11 @@ function CalcularPrecio ()
  		{
  			case "ArgentinaLuz":
  			{
- 				valorFinal=(precio*numLamp)*0.6;
- 				console.log(valorFinal);
+ 				valorFinal=valorNormal*0.6;
  				break;
  			}
  			default:
- 			valorFinal=(precio*numLamp)*0.7;
- 			console.log(valorFinal);
+ 			valorFinal=valorNormal*0.7;
  		}
  		if(valorFinal>120)
  		{
@@ -67,21 +65,18 @@ function CalcularPrecio ()
  		{
  			case "ArgentinaLuz":
  			{
- 				valorFinal=(precio*numLamp)*0.75;
- 				console.log(valorFinal);
+ 				valorFinal=valorNormal*0.75;
  				break;
 
  			}
  			case "FelipeLamparas":
  			{
- 				valorFinal=(precio*numLamp)*0.75;
- 				console.log(valorFinal);
+ 				valorFinal=valorNormal*0.75;
  				break;
 
  			}
  			default:
- 			    valorFinal=(precio*numLamp)*0.8;
- 				console.log(valorFinal);
+ 			    valorFinal=valorNormal*0.8;
  	}
  	    
     }
@@ -91,24 +86,22 @@ function CalcularPrecio ()
  		{
  			case "ArgentinaLuz":
  			{
- 				valorFinal=(precio*numLamp)*0.85;
- 				console.log(valorFinal);
+ 				valorFinal=valorNormal*0.85;
  				break;
 
  			}
  			case "FelipeLamparas":
  			{
- 				valorFinal=(precio*numLamp)*0.9;
- 				console.log(valorFinal);
+ 				valorFinal=valorNormal*0.9;
  				break;
 
  			}
  			default:
- 			valorFinal=(precio*numLamp)*0.95;
- 				console.log(valorFinal);
+ 			valorFinal=valorNormal*0.95;
  			
  		}
  		
  	}
+ 	console.log(valorFinal);
  	
 }
