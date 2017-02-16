@@ -12,6 +12,10 @@ function Mostrar()
 		var ingreso = parseInt(prompt("Ingrese un numero."));
 			//OMITE UN VALOR INGRESADO QUE NO SEA DE TIPO Number
 			if (!isNaN(ingreso)){
+				if(contador == 0){
+					maximo = ingreso;
+					minimo = ingreso;
+				}
 				if(ingreso > maximo){
 					maximo = ingreso;
 				}

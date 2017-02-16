@@ -6,6 +6,8 @@ function Mostrar()
 	var respuesta='si';
 	var ingreso;
 
+
+	//validar por la negativa
 	while(respuesta == "si"){
 		ingreso = prompt("Ingrese el número a sumar.");
 		ingreso = parseInt(ingreso);
@@ -23,7 +25,7 @@ function Mostrar()
 		if(contador > 1){
 			respuesta = prompt("¿Desea seguir sumando? (si/no)");
 			while(!(respuesta == "si" || respuesta == "no")){
-				respuesta = prompt("Opcion incorrecto, ¿desea seguir sumando? (si/no)");
+				respuesta = prompt("Opcion incorrecta, ¿desea seguir sumando? (si/no)");
 			}
 		}
 	}//cierra el while
