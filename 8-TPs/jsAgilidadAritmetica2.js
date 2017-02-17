@@ -7,6 +7,7 @@ var respuesta;
 var temporizador;
 function comenzar()
 {
+	document.getElementById("Respuesta").focus();
 	//ASIGNA DOS NUMEROS RANDOM DEL 1 AL 10
 	var primerNumero = Math.floor(Math.random() * 10) + 1;
 	var operador = Math.floor(Math.random() * 4) + 1;
