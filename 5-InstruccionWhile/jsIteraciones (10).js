@@ -1,16 +1,30 @@
 function Mostrar()
 {
 
-	var contador=0;
-	//declarar contadores y variables 
+	 var primera=true;
+	 var contpos, contneg, contcero, contpares;
+	 var acumpos, acumneg;
+	var num;
+	 
+	 while (confirm("")){
 	
-	var respuesta="si";
-
-	while(respuesta!="no")
+        num=prompt("")
+		num=parseInt(num)
+	 }
+	 		if (num < 0)
 	{
-		
-	
+		contneg++;
+		acumneg+=num
 	}
+			else if (num >0){
+		contpos++;
+		acumpos++;
+	}
+			else
+			contceros++;
+			
+			if (num%2==0)
+			contpares++;
 
 
 

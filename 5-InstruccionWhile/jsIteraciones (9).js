@@ -1,18 +1,32 @@
 function Mostrar()
 {
+	var num;
+	var maximo;
+	var minimo;
+	var primera = true;
 
-	var contador=0;
-	// declarar variables
-	
-	var respuesta='si';
+	while (confirm(""))
+{
+	num=prompt("");
+	num=parseInt(num);
 
-	while(respuesta!='no')
-	{
+	if (primera){
+		primera=false;
+		maximo=num;
+	    minimo=num;}
+	else {
+		if (num > maximo)
 		
-	
+		maximo=num;
+
+		if (num < minimo)
+		minimo=num
 	}
 
+	}
 
-
-
+document.getElementById('maximo').value=maximo;
+document.getElementById('minimo').value=minimo;
+	
+	
 }//FIN DE LA FUNCIÓN
