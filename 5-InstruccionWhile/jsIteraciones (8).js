@@ -5,12 +5,14 @@ function Mostrar()
 	var positivo=0;
 	var negativo=1;
 	
-	while (confirm("true"));
-		num=prompt("");
-		num=parseInt(num);
-
+	while (confirm(""));
+		
+	{
+		num=prompt("")
+		num=parseInt(num)
+	}
 		if (num >=0){
-		positivo+=num;}
+		positivo+num;}
 			else
 {			negativo*=num;
 		}

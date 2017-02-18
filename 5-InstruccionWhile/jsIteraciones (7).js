@@ -5,11 +5,12 @@ function Mostrar()
 	var acumulador=0;
 	var respuesta="si";
 
-while ( respuesta){
+while (confirm ("")){
+	
 		contador++;
 		num=prompt("");
 		num=parseInt(num)
-
+		acumulador+=num;
 
 }
 
