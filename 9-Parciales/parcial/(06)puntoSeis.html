@@ -1,0 +1,24 @@
+<script>
+	var	ingreso;
+	var mayor;
+	var menor;
+	for(var i = 0; i < 24; i++){
+		ingreso = prompt("ingrese el valor del total de ventas para el día " + (i + 1));
+		ingreso = parseInt(ingreso);
+		while(ingreso < 0){
+			ingreso = prompt("ingrese el valor del total de ventas para el día " + (i + 1) + " que sea mayor a cero.");
+			ingreso = parseInt(ingreso);
+		}
+		if(i == 0){
+			mayor = ingreso;
+			menor = ingreso;
+		}
+		if(ingreso > mayor){
+			mayor = ingreso;
+		}else if(ingreso < menor){
+			menor = ingreso;
+		}
+	}
+	alert("El importe de ventas mas alto del mes es: $" + mayor);
+	alert("El importe de ventas mas bajo del mes es: $" + menor);
+</script>

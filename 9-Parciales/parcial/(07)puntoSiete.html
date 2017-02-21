@@ -1,0 +1,36 @@
+<script>
+	var nota;
+	var sexo;
+	var promedio = 0;
+	var notaMasBaja;
+	var contadorVarones = 0;
+	for(var i = 0; i < 5 ; i++){
+		nota = prompt("ingrese la nota del alumno");
+		nota = parseInt(nota);
+		while(nota <= 0 || nota > 100 || isNaN(nota)){
+			nota = prompt("ingrese la nota del alumno (entre 0 y 10)");
+			nota = parseInt(nota);
+		}
+		//ACUMULA NOTAS PARA DESPUES DIVIDIR POR LA CANTIDAD DE ALUMNOS
+		promedio += nota;
+		//EVALUA LA NOTA MAS BAJA
+		if(i == 0){
+			notaMasBaja = nota;
+		}else if(nota < notaMasBaja){
+			notaMasBaja = nota;
+		}
+		
+		sexo = prompt("Ingrese el sexo del alumno ('f' para femenino y 'm' para masculino)");
+		sexo = sexo.toLowerCase();
+		while(sexo != "m" && sexo != "f"){
+			sexo = prompt("Ingrese el sexo del alumno ('f' para femenino y 'm' para masculino)");
+			sexo = sexo.toLowerCase();
+		}
+		if(sexo == "m" && nota >= 6){
+			contadorVarones++;
+		}
+	}
+	alert("el promedio de notas es: " + (promedio/100));
+	alert("la nota mas baja es: " + notaMasBaja);
+	alert("la cantidad de varones que sacaron 6 o más es: " + contadorVarones);
+</script>

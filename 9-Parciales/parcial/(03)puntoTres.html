@@ -1,0 +1,28 @@
+<html>
+	<head>
+		<title>Punto 1</title>
+		<!-- <link rel="stylesheet" type="text/css" href="../../estilo.css"> -->
+		<script>
+			var largoTerreno;
+			var anchoTerreno;
+			function perimetro(){
+				largoTerreno = document.getElementById("largoTerreno").value;
+				largoTerreno = parseInt(largoTerreno);
+				anchoTerreno = document.getElementById("anchoTerreno").value;
+				anchoTerreno = parseInt(anchoTerreno);
+				alert("El perimetro del cuadrado es " + (largoTerreno + anchoTerreno) * 2 * 3 + " m.");
+			}
+		</script>
+	</head>
+	<body>
+		<h1>Ingresa un lado del cuadrado expresado en cm...</h1>
+		<form>
+			<input type="text" placeholder="0 m" id="largoTerreno">
+			<input type="text" placeholder="0 m" onkeypress="if(event.keyCode == 13){perimetro()}" id="anchoTerreno">
+		</form>
+		<button class="MiBotonUTN" onclick="perimetro()" > Calcular Perimetro </button>
+		<script>
+			document.getElementById("largoTerreno").focus();
+		</script>
+	</body>
+</html>
