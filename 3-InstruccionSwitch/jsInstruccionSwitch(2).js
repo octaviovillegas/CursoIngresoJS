@@ -13,7 +13,7 @@ function Mostrar()
 			case "Octubre":
 			case "Noviembre":
 			case "Diciembre":
-				alert("Ya pasó el invierno");
+				alert("Ya pasamos el frío, ahora calor!!!");
 				break;
 			default:
 				alert("falta para el invierno");
