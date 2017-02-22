@@ -25,7 +25,9 @@ function Mostrar()
 			
 			if (num%2==0)
 			contpares++;
-
+			acumpares++;
+			
+Document.write ("cantidad de pares " +contpares)
 
 
 
