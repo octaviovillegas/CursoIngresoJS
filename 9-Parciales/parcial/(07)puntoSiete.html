@@ -4,10 +4,11 @@
 	var promedio = 0;
 	var notaMasBaja;
 	var contadorVarones = 0;
-	for(var i = 0; i < 5 ; i++){
+	
+	for(var i = 0; i < 100 ; i++){
 		nota = prompt("ingrese la nota del alumno");
 		nota = parseInt(nota);
-		while(nota <= 0 || nota > 100 || isNaN(nota)){
+		while(nota < 0 || nota > 10 || isNaN(nota)){
 			nota = prompt("ingrese la nota del alumno (entre 0 y 10)");
 			nota = parseInt(nota);
 		}

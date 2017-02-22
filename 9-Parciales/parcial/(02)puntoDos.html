@@ -1,12 +1,14 @@
 <html>
 	<head>
-		<title>Punto 1</title>
+		<title>Punto 2</title>
 		<!-- <link rel="stylesheet" type="text/css" href="../../estilo.css"> -->
 		<script>
 			function precioIVA(){
 				var precio = prompt("Ingresa el importe expresado en pesos...", "0");
-				alert("El precio con IVA incluido es: " + parseInt(precio)*1.21 + " pesos.");
-				
+				if(precio !== null)
+				{
+					alert("El precio con IVA incluido es: " + parseInt(precio)*1.21 + " pesos.");
+				}
 			}
 		</script>
 	</head>
