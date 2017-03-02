@@ -1,0 +1,35 @@
+<script>
+	var ingreso;
+	var pares = 0;
+	var contador = 0;
+	var acumulador = 0;
+	var maximo;
+	var minimo;
+	
+	while(ingreso != 'no'){
+		ingreso = prompt("ingrese un numero ('no' para terminar)");
+		if(parseInt(ingreso) > 0){
+			ingreso = parseInt(ingreso);
+			if(ingreso % 2 == 0){
+				pares++;
+			}
+			acumulador += ingreso;
+			if(contador == 0){
+				maximo = ingreso;
+				minimo = ingreso;
+			}else if(ingreso > maximo){
+					maximo = ingreso;
+			}else if(ingreso < minimo){
+					minimo = ingreso;
+			}
+			contador++;
+		}else if(ingreso != "no"){
+			alert("ingrese un numero positivo o 'no' para terminar");
+		}
+	}
+	document.write("la cantidad de numeros pares ingresados es: " + pares + "<br>");
+	document.write("el promedio de numeros ingresados es: " + acumulador / contador + "<br>");
+	document.write("la suma de todos los numeros ingresados es: " + acumulador + "<br>");
+	document.write("el numero maximo es: " + maximo + "<br>");
+	document.write("el numero minimo es: " + minimo + "<br>");
+</script>

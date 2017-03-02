@@ -1,0 +1,24 @@
+<html>
+	<head>
+		<title>Punto 1</title>
+		<!-- <link rel="stylesheet" type="text/css" href="../../estilo.css"> -->
+		<script>
+			var lado;
+			function cuadrado(){
+				lado = document.getElementById("ladoCuadrado").value;
+				lado = parseInt(lado);
+				alert("El perimetro del cuadrado es " + lado*4 + " cm.");
+			}
+		</script>
+	</head>
+	<body>
+		<h1>Ingresa un lado del cuadrado expresado en cm...</h1>
+		<form>
+			<input type="text" placeholder="0 cm" onkeypress="if(event.keyCode == 13){cuadrado()}" id="ladoCuadrado">
+		</form>
+		<button class="MiBotonUTN" onclick="cuadrado()" > Calcular Perimetro </button>
+		<script>
+			document.getElementById("ladoCuadrado").focus();
+		</script>
+	</body>
+</html>

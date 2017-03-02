@@ -1,0 +1,27 @@
+<html>
+	<head>
+		<title>Punto 3</title>
+		<script>
+			var largoTerreno;
+			var anchoTerreno;
+			function perimetro(){
+				largoTerreno = document.getElementById("largoTerreno").value;
+				largoTerreno = parseInt(largoTerreno);
+				anchoTerreno = document.getElementById("anchoTerreno").value;
+				anchoTerreno = parseInt(anchoTerreno);
+				alert("Los metros de alambre necesarios para el perimetro del terreno es " + (largoTerreno + anchoTerreno) * 2 * 3 + " m.");
+			}
+		</script>
+	</head>
+	<body>
+		<h1>Ingresa los lados del terreno expresado en mts...</h1>
+		<form>
+			<input type="text" placeholder="0 m" id="largoTerreno">
+			<input type="text" placeholder="0 m" onkeypress="if(event.keyCode == 13){perimetro()}" id="anchoTerreno">
+		</form>
+		<button onclick="perimetro()" > Calcular Perimetro </button>
+		<script>
+			document.getElementById("largoTerreno").focus();
+		</script>
+	</body>
+</html>

@@ -1,0 +1,22 @@
+<head>
+	<title>Punto 5</title>
+	<script>
+	var diaSemana = prompt("Ingrese el dia de la semana: (DOMINGO-LUNES)");
+	diaSemana = diaSemana.toLowerCase();
+	switch(diaSemana){
+		case "sabado":
+		case "domingo":
+			alert("es fin de semana");
+			break;
+		case "lunes":
+		case "martes":
+		case "miercoles":
+		case "jueves":
+		case "viernes":
+			alert("a trabajar!!");
+			break;
+		default:
+			alert("Eso no es un dia de la semana");
+	}
+</script>
+</head>

@@ -1,3 +1,4 @@
 # CursoIngresoJS
 Curso de ingreso con JavaScript
-dsasadsadsadasdsad
+
+ALUMNO: Lago, Fernando Ariel

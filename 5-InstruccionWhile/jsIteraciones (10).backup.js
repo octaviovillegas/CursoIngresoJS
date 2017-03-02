@@ -58,7 +58,6 @@ function Mostrar()
 		
 		//Pido nombre
 		nombre = prompt("por favor ingrese su nombre");
-		nombre = nombre.toUpperCase();
 		
 		//Pido sexo
 		sexo = prompt("Ingrese si es hombre o mujer (M o F)");
@@ -80,7 +79,7 @@ function Mostrar()
 		}
 		
 		//La mujer con mejor nota
-		if(sexo == "f" && mejorNotaMujer === undefined)
+		if(sexo == "f" && contador == 1)
 		{
 			nombreMejorNotaMujer = nombre;
 			mejorNotaMujer = nota;
@@ -90,7 +89,7 @@ function Mostrar()
 		}
 		
 		//El hombre con mejor nota
-		if(sexo == "m" && mejorNotaHombre === undefined)
+		if(sexo == "m" && contador == 1)
 		{
 			nombreMejorNotaHombre = nombre;
 			mejorNotaHombre = nota;
@@ -136,16 +135,7 @@ function Mostrar()
 		if(nota == 10 && primerDiez === undefined)
 		{
 			primerDiez = nombre;
-			switch(sexo)
-			{
-				case 'f':
-					sexoPrimerDiez = "Mujer";
-					break;
-				case 'm':
-					sexoPrimerDiez = "Hombre";
-					break;
-			}
-			
+			sexoPrimerDiez = sexo;
 		}
 		respuesta = prompt("ingrese no para finalizar la carga");//Ultima linea del while
 	}// aca termino la carga de datos
@@ -175,10 +165,6 @@ function Mostrar()
 	document.write("El promedio de nota de las mujeres es " + sumadorNotaMujer / contadorMujeres + "<br>");
 	document.write("El porcentaje de aprobados es igual al " + (contadorAprobados * 100 / contador ) + "%<br>");
 	document.write("El porcentaje de desaprobados es igual al " + ((contador - contadorAprobados) * 100 / contador ) + "%<br>");
-	if(primerDiez !== undefined)
-	{
-			document.write("El nombre del primer diez es " + primerDiez + " y es " + sexoPrimerDiez);
-	} 
-	
+	document.write("El nombre del primer diez es " + primerDiez + " y es " + sexoPrimerDiez);
 	
 }//FIN DE LA FUNCIÓN
