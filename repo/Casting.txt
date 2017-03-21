@@ -1,0 +1,42 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int i;
+    
+    //CASTEO IMPLICITO FLOAT A INT (PIERDO DECIMALES)
+    int numeroInt = 64;
+    float numeroFloat = 3.4824;
+    char caracter;
+    int otroInt;
+    float otroFloat;
+
+    otroInt =(int)numeroFloat;
+    otroFloat = numeroInt;
+
+   
+
+    system("pause");
+    numeroInt = 10;
+    otroInt = 3;
+    
+    //CASTEO EXPLICITO PARA LA DIVISION ENTRE ENTEROS
+    float divisionEntera;
+
+    divisionEntera = (float)numeroInt/otroInt;
+
+    printf("La division es: %f", divisionEntera);*/
+    
+    //CASTEO IMPLICITO DE INT A CHAR
+    caracter = numeroInt;
+    printf("Caracter %c", caracter);
+    printf("ENTERO: %d\n\nFLOTANTE: %f\n", otroInt, otroFloat);
+    //CODIGO ASCII EN C (CASTEO IMPLICITO DE INT A CHAR)
+    for(i=0; i<256; i++)
+    {
+        printf("%d --> %c\n", i, i);
+    }
+
+    return 0;
+}
