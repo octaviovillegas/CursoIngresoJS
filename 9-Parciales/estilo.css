@@ -1,0 +1,279 @@
+
+
+* {
+  margin:0;
+  padding:0;
+}
+
+body {
+  margin: 0 auto;
+  color:#f0f0f0;
+  background:#3f51b5;
+  font-family:'Open Sans',sans-serif;
+}
+
+caption {
+  font-size: 1.6em;
+  font-weight: 400;
+  padding: 10px 0;
+}
+
+.CajaUno {
+
+  max-width: 30%;
+  width:400px;
+  margin:0 auto;
+  margin-top:8px;
+  margin-bottom:2%;
+  transition:opacity 1s;
+  -webkit-transition:opacity 1s;
+}
+
+.CajaInicio {
+  width:750px;
+  margin:0 auto;
+  margin-top:8px;
+  margin-bottom:2%;
+  transition:opacity 1s;
+  -webkit-transition:opacity 1s;
+}
+.CajaEnunciado {
+  max-width: 30%;
+  border: dashed;
+ position: fixed;
+background: royalblue;
+top: 0px;
+width: 400px;
+margin: 0;
+padding: 10px;
+/* margin-top: 8px; */
+margin-bottom: 2%;
+transition: opacity 1s;
+-webkit-transition: opacity 1s;
+border-radius: 15px;
+-webkit-border-radius: 15px;
+}
+.CajaInicio h1{
+  background:rgb(14, 26, 112);; 
+  padding:20px 0;
+  font-size:140%;
+  font-weight:300;
+  text-align:center;
+  color:#fff;
+}
+.CajaAbajo {
+   margin-top: 100px;
+  width:400px;
+  top:0px;
+left:0px;
+  transition:opacity 1s;
+  -webkit-transition:opacity 1s;
+}
+.CajaArriva {
+  margin-top: 20px;
+  width:400px;
+  top:0px;
+  left:0px;
+  transition:opacity 1s;
+  -webkit-transition:opacity 1s;
+}
+
+#FormIngreso {
+  
+  background:#f0f0f0;
+  padding:6% 4%;
+}
+
+input[type="text"]{
+  width:92%;
+  background:#fff;
+  margin-bottom:4%;
+  border:1px solid #ccc;
+  padding:4%;
+  font-family:'Open Sans',sans-serif;
+  font-size:95%;
+  color:#555;
+}
+select{
+  width:100%;
+  background:#fff;
+  margin-bottom:4%;
+  border:1px solid #ccc;
+  padding:4%;
+  font-family:'Open Sans',sans-serif;
+  font-size:95%;
+  color:#555;
+}
+
+
+.MiBotonUTN {
+  display:block;
+  text-transform: capitalize;
+  border:hidden;
+  width:100%;
+  background:#f50056;
+  margin:0 auto;
+  margin-top:1%;
+  padding:10px;
+  text-align:center;
+  text-decoration:none;
+  color:#fff;
+  cursor:pointer;
+  -moz-border-radius:7px;
+  -webkit-border-radius:7px;
+  border-radius:7px;
+  transition:background .3s;
+  -webkit-transition:background .3s;
+}
+
+.MiBotonUTN:hover{
+  background:#1BA045;
+}
+.MiBotonUTNJuego {
+  
+  text-transform: capitalize;
+  border:hidden;
+  width:32%;
+  background:#f50056;
+  margin:0 auto;
+  margin-top:1%;
+  padding:10px;
+  text-align:center;
+  text-decoration:none;
+  color:#fff;
+  cursor:pointer;
+  -moz-border-radius:7px;
+  -webkit-border-radius:7px;
+  border-radius:7px;
+  transition:background .3s;
+  -webkit-transition:background .3s;
+}
+.MiBotonUTNMenu {
+  display:block;
+  text-transform: capitalize;
+  border:hidden;
+  width:100px;
+  background:#f50056;
+  margin-top:1%;
+  padding:6px;
+  text-align:center;
+  text-decoration:none;
+  color:#fff;
+  cursor:pointer;
+  -moz-border-radius:7px;
+  -webkit-border-radius:7px;
+  border-radius:7px;
+  transition:background .3s;
+  -webkit-transition:background .3s;
+}
+
+.MiBotonUTNMenu:hover{
+ background: #1e5799; /* Old browsers */
+background: -moz-linear-gradient(45deg, #1e5799 0%, #2989d8 16%, #2989d8 16%, #ffffff 36%, #ffffff 43%, #ebf709 48%, #ffffff 52%, #ffffff 61%, #207cca 82%, #207cca 99%, #207cca 99%, #7db9e8 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,#1e5799), color-stop(16%,#2989d8), color-stop(16%,#2989d8), color-stop(36%,#ffffff), color-stop(43%,#ffffff), color-stop(48%,#ebf709), color-stop(52%,#ffffff), color-stop(61%,#ffffff), color-stop(82%,#207cca), color-stop(99%,#207cca), color-stop(99%,#207cca), color-stop(100%,#7db9e8)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(45deg, #1e5799 0%,#2989d8 16%,#2989d8 16%,#ffffff 36%,#ffffff 43%,#ebf709 48%,#ffffff 52%,#ffffff 61%,#207cca 82%,#207cca 99%,#207cca 99%,#7db9e8 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(45deg, #1e5799 0%,#2989d8 16%,#2989d8 16%,#ffffff 36%,#ffffff 43%,#ebf709 48%,#ffffff 52%,#ffffff 61%,#207cca 82%,#207cca 99%,#207cca 99%,#7db9e8 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(45deg, #1e5799 0%,#2989d8 16%,#2989d8 16%,#ffffff 36%,#ffffff 43%,#ebf709 48%,#ffffff 52%,#ffffff 61%,#207cca 82%,#207cca 99%,#207cca 99%,#7db9e8 100%); /* IE10+ */
+background: linear-gradient(45deg, #1e5799 0%,#2989d8 16%,#2989d8 16%,#ffffff 36%,#ffffff 43%,#ebf709 48%,#ffffff 52%,#ffffff 61%,#207cca 82%,#207cca 99%,#207cca 99%,#7db9e8 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+color:black;
+}
+
+.MiBotonUTNLinea{
+  max-width: 150px;
+position: absolute;
+  text-transform: capitalize;
+  border:hidden;
+  width:100%;
+  background:#00A1F5;
+  margin:0 auto;
+  margin-top:30%;
+  padding:10px;
+  text-align:center;
+  text-decoration:none;
+  color:#fff;
+  cursor:pointer;
+  -moz-border-radius:7px;
+  -webkit-border-radius:7px;
+  border-radius:7px;
+  transition:background .3s;
+  -webkit-transition:background .3s;
+}
+.MiBotonUTNLinea:hover{
+  background:red;
+  /*text-transform: uppercase;*/
+}
+
+.MiBotonUTNMenuInicio {
+  display:block;
+ 
+  border:hidden;
+  width:150px;
+  background:blue;
+  margin-top:1%;
+  padding:6px;
+  text-align:center;
+  text-decoration:none;
+  color:#fff;
+  cursor:pointer;
+  -moz-border-radius:7px;
+  -webkit-border-radius:7px;
+  border-radius:7px;
+  transition:background .3s;
+  -webkit-transition:background .3s;
+}
+.MiBotonUTNMenuInicio:hover{
+  background:#4a4a71;
+}
+
+.MiBotonUTNMenuInicioParcial {
+  display:block;
+ 
+  border:hidden;
+  width:150px;
+  background:red;
+  margin-top:1%;
+  padding:6px;
+  text-align:center;
+  text-decoration:none;
+  color:#fff;
+  cursor:pointer;
+  -moz-border-radius:7px;
+  -webkit-border-radius:7px;
+  border-radius:7px;
+  transition:background .3s;
+  -webkit-transition:background .3s;
+}
+.MiBotonUTNMenuInicioParcial:hover{
+  background:green;
+}
+
+
+
+
+.CajaUno h1{
+  background:#f50056; 
+  padding:20px 0;
+  font-size:140%;
+  font-weight:300;
+  text-align:center;
+  color:#fff;
+}
+
+.CajaUno a:hover {
+  color:#f50056;
+}
+
+
+
+.CajaUno a {
+  color:#DDDDDD;
+}
+
+.PiedraPapelTijera
+{
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+
+}
