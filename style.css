@@ -1,0 +1,76 @@
+.body {
+  margin: 0 auto;
+  color:#f0f0f0;
+  background:#3f51b5;
+  font-family:'Open Sans',sans-serif;
+}
+.cajaGrande{
+	background-color:#DEB887;
+	color:black;
+	font-size: 20px;
+	text-align:center;
+	width: 100%;	
+	padding-top: 10px;
+	border-radius: 10px 
+}
+.cajaUno{
+	background: red;
+	display: inline-block;
+	padding: 30px;
+	margin-top: 20px;
+	box-shadow:10px  10px 10px ;
+	width: 20%;
+	border-radius: 10px;
+
+}
+.cajaDos{
+	background: yellow;
+	display: inline-block;
+	padding: 30px;
+	width: 20%;
+	border-radius: 10px;
+
+
+}
+.cajaTres{
+	
+	background: green;
+	display: inline-block;
+	padding: 30px;
+	margin-top: 20px;
+	transform: rotate();
+	box-shadow:10px  10px 10px ;
+	width: 20%;
+	border-radius: 10px;
+
+
+}
+.cajaCuatro{
+	background: white;
+	display: inline-block;
+	padding: 30px;
+	margin-top: 20px;
+	transform: rotate();
+	box-shadow:10px  10px 10px ;
+	width: 20%;
+	border-radius: 10px;
+
+}
+
+.cajaRedes{
+	float: left;
+	padding:20px;
+	background-color: #2F4F4F;
+	border-radius: 10px;
+	margin: 20px;
+}
+
+.text{
+	z-index: 50;
+  position: absolute;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  left: 90%;
+  top: 325px;
+}

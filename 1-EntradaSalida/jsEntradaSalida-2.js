@@ -2,6 +2,8 @@
 y luego mostrarlo por 'alert' al presionar el botón  'MOSTRAR'*/
 function Mostar()
 {
-	
+	var n;
+    n = prompt();
+    alert(n);
 }
 
