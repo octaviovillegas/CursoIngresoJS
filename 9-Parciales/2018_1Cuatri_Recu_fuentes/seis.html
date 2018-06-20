@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Curso Ingreso UTN FRA</title>
+
+			<!--/estilos-->
+		<link rel="stylesheet" type="text/css" href="estilo.css">
+		<link rel="stylesheet" type="text/css" href="animacion.css">
+		<!--final de /estilos-->
+
+		<!--Lógica-Programación-->
+		<script type="text/javascript" src="seis.js"></script>
+        <!--Final de Lógica-Programación -->
+
+
+	</head>
+	<body>
+		<div class="CajaUno animated bounceInDown">
+			<h1>Solo Mostrar mensaje</h1>
+			<form id="FormIngreso">
+
+					<input type="text"  placeholder="hora" id="laHora">
+
+			</form>
+
+			<button  class="MiBotonUTN" onclick="Mostrar()" >Mostrar</button>
+
+		</div>
+
+		<div class="CajaEnunciado animated bounceInLeft">
+			<h2>Enunciado:</h2>
+				<h3>
+					Bienvenidos.
+        </br>Se ingresa una nota.
+        </br> Si está entre las 0 y las 3 mostrar: "la próxima se puede", 
+        </br> si es desde las 4 a las 6: "raspando", de lo contrario informar que aprobó. </br>Informar si la nota no es válida. 
+        </br>Si es aprobó y la nota es mayor a 8 se debe agregar el mensaje: "muy bien". 
+        </br>Si es nota  para  “raspando” y la nota es menor a 5 se debe agregar el mensaje: "debes preocuparte más".
+        </br>Aclaración: hacer un switch y dentro toda la lógica incluyendo los if y con una sola ventana alert.
+
+		</div>
+
+		<div class="CajaAbajo animated bounceInUp">
+				<a  class="MiBotonUTNLinea" onclick="location.href='index.html'" >Men&uacute; ejercicios</a>
+	</div>
+
+	</body>
+</html>

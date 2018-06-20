@@ -25,7 +25,7 @@ function tijera()
 	
 }//FIN DE LA FUNCIÓN
 
-function mostarResultado()
+function mostrarResultado()
 {
 
 }
