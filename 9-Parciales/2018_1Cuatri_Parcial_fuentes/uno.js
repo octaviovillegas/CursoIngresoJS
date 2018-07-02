@@ -1,5 +1,5 @@
 
-function Mostrar()
+function mostrar()
 {
 
 }

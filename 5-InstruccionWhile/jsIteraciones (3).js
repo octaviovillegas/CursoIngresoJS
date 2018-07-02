@@ -1,4 +1,4 @@
-function Mostrar()
+function mostrar()
 {
 
 var clave = prompt("ingrese el número clave.");

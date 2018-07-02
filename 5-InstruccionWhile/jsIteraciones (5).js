@@ -1,4 +1,4 @@
-function Mostrar()
+function mostrar()
 {
 
 var sexo = prompt("ingrese f ó m .");
