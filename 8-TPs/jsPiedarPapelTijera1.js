@@ -4,13 +4,12 @@ siendo 1 para “piedra”, el 2 para “papel” y 3 para “tijera”.
 El jugador seleccionará una imagen correspondiente 
 a su opción  y le informaremos si ganó, empató o perdió.
 */
+//eleccionMaquina=Math.floor(mat.random()*(max-min))+min;
 var eleccionMaquina;
-
+eleccionMaquina=Math.floor(Math.random()*(3+1));
 function comenzar()
 {
 	
-
-
 }//FIN DE LA FUNCIÓN
 function piedra()
 {
