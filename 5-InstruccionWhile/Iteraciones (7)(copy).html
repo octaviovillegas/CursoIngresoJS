@@ -8,21 +8,20 @@
 		<link rel="stylesheet" type="text/css" href="../estilo.css">
 		<link rel="stylesheet" type="text/css" href="../animacion.css">
 		<!--final de Estilos-->
-		
+
 		<!--Lógica-Programación-->
-		<script type="text/javascript" src="jsInstruccionIF (10).js"></script>
+		<script type="text/javascript" src="jsIteraciones (7).js"></script>
         <!--Final de Lógica-Programación -->
 		
-
-	</head>
+</head>
 	<body>
 		<div class="CajaUno animated bounceInDown">
 			
-			<h1>Presione el bot&oacute;n </h1>
+			<h1>Ingrese datos.</h1>
 			<form id="FormIngreso">
-
-			
-
+				
+				<INPUT type="text" placeholder="La suma acumulada" id="suma" readonly>
+				<INPUT type="text" placeholder="El promedio" id="promedio" readonly>
 				
 			</form>
 			
@@ -31,7 +30,7 @@
 			
 		
 			
-			<button  class="MiBotonUTNLinea" onclick="mostrar()" >mostrar  resultado del ex&aacute;men</button>
+			<button  class="MiBotonUTN" onclick="mostrar()" >Comenzar el ingreso</button>
 
 		</div>
 
@@ -39,11 +38,8 @@
 			<h2>Enunciado:</h2>
 			
 				<h3>
-					Al presionar el Bot&oacute;n, 
-					asignar una nota RANDOM al examen y mostrar:
-					"EXCELENTE" para notas igual a 9 o 10,
-					"APROB&Oacute;" para notas mayores a 4,
-					"Vamos, la proxima se puede" para notas menores a 4
+					Al presionar el bot&oacute;n pedir  n&uacute;meros  hasta que el usuario quiera 
+					e informar la suma acumulada y el promedio.
 				
 				</h3>
 			
@@ -51,7 +47,8 @@
 		</div>
 
 		<div class="CajaAbajo animated bounceInUp">
-			<a  class="MiBotonUTNLinea" onclick="location.href='index.html'" >Men&uacute; ejercicios</a>	
+			<a  class="MiBotonUTNLinea" onclick="location.href='index.html'" >Men&uacute; ejercicios</a>
+			
 		</div>
 	</body>
 </html>

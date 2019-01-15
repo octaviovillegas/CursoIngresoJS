@@ -78,7 +78,7 @@ color:black;
 
 .MiBotonUTNnav {
   
-  text-transform: capitalize;
+  /*text-transform: capitalize;*/
   border:hidden;
   width:100%;
   background:#f50056;
@@ -265,7 +265,7 @@ select{
 
 .MiBotonUTN {
   display:block;
-  text-transform: capitalize;
+  /*text-transform: capitalize;*/
   border:hidden;
   width:100%;
   background:#f50056;
@@ -288,7 +288,7 @@ select{
 }
 .MiBotonUTNJuego {
   
-  text-transform: capitalize;
+  /*text-transform: capitalize;*/
   border:hidden;
   width:32%;
   background:#f50056;
@@ -307,7 +307,7 @@ select{
 }
 .MiBotonUTNMenu {
   display:block;
-  text-transform: capitalize;
+  /*text-transform: capitalize;*/
   border:hidden;
   width:100px;
   background:#f50056;
@@ -339,7 +339,7 @@ color:black;
 .MiBotonUTNLinea{
   max-width: 150px;
 position: absolute;
-  text-transform: capitalize;
+  /*text-transform: capitalize;*/
   border:hidden;
   width:100%;
   background:#00A1F5;
