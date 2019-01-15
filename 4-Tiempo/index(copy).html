@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html>
-
-
 	<head>
 		<meta charset="utf-8">
 		<title>Curso Ingreso UTN FRA</title>
-		<link rel="icon" type="image/x-icon" href="../favicon.ico">
 
 		<!--Estilos-->
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-	
+		<link rel="stylesheet" type="text/css" href="../estilo.css">
 		<link rel="stylesheet" type="text/css" href="../animacion.css">
 		<!--final de Estilos-->
+
+		<!--Lógica-Programación-->
+		
+        <!--Final de Lógica-Programación -->
+		
 <script>
 <!-- Standard Scroll Clock by kurt.grigg@virgin.net
 var H='....';
@@ -83,35 +83,18 @@ div.sec {
     background:#FF0000;
 }
 </style>
-
 	</head>
-<body>
+	<body onload="clock()">
+		<div class="CajaArriva animated bounceInUp">
+			<a  class="MiBotonUTNLinea" onclick="location.href='../index.html'" >Men&uacute; Principal</a>	
+		</div>
+		<div class="CajaInicio animated bounceInRight">
+			<h1>Ejercitación: </br> Manejar el tiempo</h1>
+			<form id="FormIngreso">
+<h5 style="color:black;">setInterval() ejecuta una función, repitiendola a intervalos de tiempo especificados </h5>
+<h5 style="color:black;">setTimeout() ejecuta una función, una única vez, después de esperar una cantidad de milisegundos</h5>
 
-<div class=" animated bounceInRight header">
-   <a class="MiBotonUTNnav" onclick="location.href='../index.html'" >Men&uacute; Principal</a> <center><h1>El tiempo</h1>
-   <p> setInterval(), setTimeout() </p>
-</center>	
-</div>
-
-<div class="row">
-  <div class="col-3 col-s-3 menu">
-
-    <ul>
-    
-					<li  class="MiBotonUTNMenuEjercicios" onclick="location.href='Tiempo(1).html'" >Ejercicio 1</li>
-					<li  class="MiBotonUTNMenuEjercicios" onclick="location.href='Tiempo(2).html'" >Ejercicio 2</li>
-					<li  class="MiBotonUTNMenuEjercicios" onclick="location.href='Tiempo(3).html'" >Ejercicio 3</li>
-					<li  class="MiBotonUTNMenuEjercicios" onclick="location.href='Tiempo(4).html'" >Ejercicio 4</li>
-					<li  class="MiBotonUTNMenuEjercicios" onclick="location.href='Tiempo(5).html'" >Ejercicio 5</li>
-					<li  class="MiBotonUTNMenuEjercicios" onclick="location.href='Tiempo(6).html'" >Ejercicio 6</li>
-					<li  class="MiBotonUTNMenuEjercicios" onclick="location.href='Tiempo(7).html'" >Ejercicio 7</li>
-					<li  class="MiBotonUTNMenuEjercicios" onclick="location.href='Tiempo(8).html'" >Ejercicio 8</li>
-					<li  class="MiBotonUTNMenuEjercicios" onclick="location.href='Tiempo(9).html'" >Ejercicio 9</li>
-					<li  class="MiBotonUTNMenuEjercicios" onclick="location.href='Tiempo(10).html'" >Ejercicio 10</li>
-    </ul>
-
-
-    <div class="reloj" style=" zoom:3.5;float: right;">
+						<div class="reloj" style=" zoom:3.5;float: right;">
 						<table><tr><td>
 						<div style="width:120px;height:100px;position:relative;left:58px;top:50px;">
 							<div id="dig1" class="dig">1</div>
@@ -149,29 +132,29 @@ div.sec {
 						<td>
 
 						</td></tr></table>
-						</div>
-  </div>
-
-  <div class="col-6 col-s-9">
-   						
+						</div>				
 					
-  </div>
 
-  <div class="col-3 col-s-12">
-    <div class="aside">
-     <h5 style="color:black;">setInterval() ejecuta una función, repitiendola a intervalos de tiempo especificados </h5>
-<h5 style="color:black;">setTimeout() ejecuta una función, una única vez, después de esperar una cantidad de milisegundos</h5>
-     
-    </div>
-  </div>
-</div>
+					<a  class="MiBotonUTNMenu" onclick="location.href='Tiempo(1).html'" >Ejercicio 1</a>
+					<a  class="MiBotonUTNMenu" onclick="location.href='Tiempo(2).html'" >Ejercicio 2</a>
+					<a  class="MiBotonUTNMenu" onclick="location.href='Tiempo(3).html'" >Ejercicio 3</a>
+					<a  class="MiBotonUTNMenu" onclick="location.href='Tiempo(4).html'" >Ejercicio 4</a>
+					<a  class="MiBotonUTNMenu" onclick="location.href='Tiempo(5).html'" >Ejercicio 5</a>
+					<a  class="MiBotonUTNMenu" onclick="location.href='Tiempo(6).html'" >Ejercicio 6</a>
+					<a  class="MiBotonUTNMenu" onclick="location.href='Tiempo(7).html'" >Ejercicio 7</a>
+					<a  class="MiBotonUTNMenu" onclick="location.href='Tiempo(8).html'" >Ejercicio 8</a>
+					<a  class="MiBotonUTNMenu" onclick="location.href='Tiempo(9).html'" >Ejercicio 9</a>
+					<a  class="MiBotonUTNMenu" onclick="location.href='Tiempo(10).html'" >Ejercicio 10</a>
+					
+					
+			</form>
+			
 
-<div class="footer">
-  
-  	<a class="MiBotonUTNnav" onclick="location.href='../index.html'" >Men&uacute; Principal</a>	
-  	<p>Curo de ingreso UTN FRA</p>
-</div>
+		</div>
 
-</body>
+		<center>
+			
+		</center>
+		
+	</body>
 </html>
-	<link rel="stylesheet" type="text/css" href="../estilo.css">
