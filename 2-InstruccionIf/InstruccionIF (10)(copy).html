@@ -8,40 +8,43 @@
 		<link rel="stylesheet" type="text/css" href="../estilo.css">
 		<link rel="stylesheet" type="text/css" href="../animacion.css">
 		<!--final de Estilos-->
-
+		
 		<!--Lógica-Programación-->
-		<script type="text/javascript" src="jsEntradaSalida-9.js"></script>
+		<script type="text/javascript" src="jsInstruccionIF (10).js"></script>
         <!--Final de Lógica-Programación -->
 		
 
 	</head>
 	<body>
 		<div class="CajaUno animated bounceInDown">
-			<h1>Ingrese el sueldo </h1>
+			
+			<h1>Presione el bot&oacute;n </h1>
 			<form id="FormIngreso">
 
-				<input type="text"  placeholder="Ingrese sueldo" id="sueldo">
+			
 
-				<input type="text" readonly  placeholder="Resultado" id="resultado">
 				
 			</form>
 			
 		</div>
-
-
-		<div class="CajaUno animated bounceInLeft">	
+		<div class="CajaUno animated bounceInLeft">
 			
-			<button  class="MiBotonUTN" onclick="mostrarAumento()" >mostrar aumento</button>
+		
+			
+			<button  class="MiBotonUTNLinea" onclick="mostrar()" >mostrar  resultado del ex&aacute;men</button>
 
 		</div>
-		
+
 		<div class="CajaEnunciado animated bounceInLeft">
 			<h2>Enunciado:</h2>
 			
 				<h3>
-					Debemos lograr tomar el importe por ID ,
-					</br>transformarlo a entero (parseInt), luego
-					</br>mostrar el importe con un aumento del 10 %. en el cuadro de texto "RESULTADO"
+					Al presionar el Bot&oacute;n, 
+					asignar una nota RANDOM al examen y mostrar:
+					"EXCELENTE" para notas igual a 9 o 10,
+					"APROB&Oacute;" para notas mayores a 4,
+					"Vamos, la proxima se puede" para notas menores a 4
+				
 				</h3>
 			
 			
