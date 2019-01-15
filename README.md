@@ -6,4 +6,4 @@ ejercitación y TP para rendir el examen de ingreso
 <h3>Tecnico superior en programación</h3>
 
 
-http://octaviovillegas.github.io/CursoIngresoJS/
+http://octaviovillegas.github.io/CursoIngresoJS/index.html
