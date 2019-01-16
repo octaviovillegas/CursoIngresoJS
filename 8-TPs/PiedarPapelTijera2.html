@@ -14,51 +14,60 @@
         <!--Final de Lógica-Programación -->
 		
 
-		</head>
+		
+		
+<link rel="icon" type="image/x-icon" href="../favicon.ico">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
 	<body onload="comenzar()">
-		<div class="CajaUno animated bounceInDown">
-			
 
-			<input type="text" readonly id="ganadas">
-			<input type="text" readonly id="perdidas">
-			<input type="text" readonly id="empatadas">
-			<form id="FormIngreso">
-				<center>
-					<img src="imagenes/interrogacion.jpg" >
-				</center>
-				
-			</form>
-			
-		</div>
-		<div class="CajaUno animated bounceInLeft">
-			
+<div class=" animated bounceInRight header">
+    
 
-			
-			
+     <center><h5>TP <strong> Ejercicio 9</strong> </h5></center> 
+   <a  class="MiBotonUTNnav" onclick="location.href='index.html'" ><i class="far fa-hand-point-left"></i>Men&uacute; ejercicios</a> 
+
+</div>
+
+<div class="row">
+  <div class="col-3 col-s-3 menu">
+   
+  </div>
+
+  <div class="col-6 col-s-9">
+  	<form id="FormIngreso" class=" animated bounceInLeft" class=" animated bounceInLeft"class=" animated bounceInLeft">
+	   <h1>Piedra, papel o tijera 1.0</h1>
+	 			
+
+			<input type="text" readonly id="ganadas" placeholder="Juegos ganados">
+			<input type="text" readonly id="perdidas" placeholder="Juegos perdidos">
+			<input type="text" readonly id="empatadas" placeholder="Juegos empatados" >
 			<img class="PiedraPapelTijera animated zoomInRight " src="imagenes/piedra.jpg" onclick="piedra()">
 			<img class="PiedraPapelTijera animated zoomInUp" src="imagenes/papel.jpg" onclick="papel()">
 			<img class="PiedraPapelTijera animated zoomInLeft"  src="imagenes/tijera.jpg" onclick="tijera()">
-			
 
-			
+	 </form>	
+  </div>
 
-
-		</div>
-
-		<div class="CajaEnunciado animated bounceInLeft">
-			<h2>Enunciado:</h2>
-			
+  <div class="col-3 col-s-12">
+    <div class="aside animated bounceInUp">
+    		<h2>Enunciado:</h2>
+					
 				<h3>
 						3.	Piedra, Papel o Tijera (v 2.0):
 						</br>	Ahora debemos informar cuantas veces se ganó, perdió o empató desde la última recarga de página
 
 				</h3>
 			
-			
-		</div>
+    </div>
+  </div>
+</div>
 
-		<div class="CajaAbajo animated bounceInUp">
-			<a style=" margin-top: -10%;" class="MiBotonUTNLinea" onclick="location.href='index.html'" >Men&uacute; ejercicios</a>	
-		</div>
-	</body>
+<div class="footer">
+  
+  	<!--a class="MiBotonUTNnav" onclick="location.href='../index.html'" ><i class="fas fa-bars"></i>Men&uacute; Principal</a-->	
+  	<p>Curso de ingreso UTN FRA</p>
+</div>
+
+</body>
 </html>
