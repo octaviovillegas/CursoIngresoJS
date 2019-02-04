@@ -12,35 +12,47 @@
 		<!--Lógica-Programación-->
 		<script type="text/javascript" src="dos.js"></script>
         <!--Final de Lógica-Programación -->
-
+		<link rel="icon" type="image/x-icon" href="favicon.ico">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	</head>
 	<body>
-		<div class="CajaUno animated bounceInDown">
-			<h1>Solo mostrar mensaje</h1>
-			<form id="FormIngreso" class=" animated bounceInLeft">
 
-					<input type="text"  placeholder="nombre" id="elNombre">
+<div class=" animated bounceInRight header">
+     <a  class="MiBotonUTNnav" onclick="location.href='index.html'" ><i class="far fa-hand-point-left"></i>Men&uacute; ejercicios</a> 	
+</div>
+
+<div class="row">
+  <div class="col-3 col-s-3 menu">
+   
+  </div>
+
+  <div class="col-6 col-s-9">
+   	<form id="FormIngreso" class=" animated bounceInLeft">
+	   	<h1>Ingrese datos </h1>
+	   	<input type="text"  placeholder="nombre" id="elNombre">
 					<input type="text"  placeholder="localidad" id="laLocalidad">
+	   	<a  class="MiBotonUTNnav" onclick="mostrar()" >Mostrar  informaci&oacute;n</a>
+	 </form>
+  </div>
 
-			</form>
-
-			<button  class="MiBotonUTN" onclick="mostrar()" >mostrar</button>
-
-		</div>
-
-		<div class="CajaEnunciado animated bounceInLeft">
-			<h2>Enunciado:</h2>
+  <div class="col-3 col-s-12">
+    <div class="aside animated bounceInUp">
+     <h2>Enunciado:</h2>
 				<h3>
 					Bienvenidos.
         </br>mostrar <strong> * en un solo alert *<strong> el mensaje "usted es  xxxxx y vive en la localidad de xxxxxxxx".
 				</h3>
+     
+    </div>
+  </div>
+</div>
 
-		</div>
+<div class="footer">
+  
+  	
+  	<p>Curso de ingreso UTN FRA</p>
+</div>
 
-		<div class="CajaAbajo animated bounceInUp">
-				<a  class="MiBotonUTNLinea" onclick="location.href='index.html'" >Men&uacute; ejercicios</a>
-	</div>
-
-	</body>
+</body>
 </html>

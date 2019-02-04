@@ -12,40 +12,46 @@
 		<!--Lógica-Programación-->
 		<script type="text/javascript" src="tres.js"></script>
         <!--Final de Lógica-Programación -->
-
+		<link rel="icon" type="image/x-icon" href="favicon.ico">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	</head>
 	<body>
-		<div class="CajaUno animated bounceInDown">
-			<h1>Solo mostrar mensaje</h1>
-			<form id="FormIngreso" class=" animated bounceInLeft">
 
-				<input type="text"  placeholder="precio final" id="elPrecioFinal">
+<div class=" animated bounceInRight header">
+     <a  class="MiBotonUTNnav" onclick="location.href='index.html'" ><i class="far fa-hand-point-left"></i>Men&uacute; ejercicios</a> 	
+</div>
 
-				
-			</form>
+<div class="row">
+  <div class="col-3 col-s-3 menu">
+   
+  </div>
 
-			<button  class="MiBotonUTN" onclick="mostrar()" >mostrar</button>
+  <div class="col-6 col-s-9">
+   	<form id="FormIngreso" class=" animated bounceInLeft">
+	   	<h1>Ingrese datos </h1>
+	   <input type="text"  placeholder="precio final" id="elPrecioFinal">
+	   	<a  class="MiBotonUTNnav" onclick="mostrar()" >Mostrar  informaci&oacute;n</a>
+	 </form>
+  </div>
 
-		</div>
-
-		<div class="CajaEnunciado animated bounceInLeft">
-			<h2>Enunciado:</h2>
-				<h3>
+  <div class="col-3 col-s-12">
+    <div class="aside animated bounceInUp">
+     <h2>Enunciado:</h2>
 					Bienvenidos.
-        </br>Pedir por prompt el precio y el porcentaje de descuento, mostrar:
-        <br> 1-El descuento en dinero,
-        <br> 2-El precio con el descuento ,
-        <br> 3-El IVA 
-        <br>todos los anteriores e un solo  alert
-        <br> 4-Y solo el precio con descuento más el IVA por id .
+        </br>Pedir por prompt el precio y el porcentaje de descuento, mostrar el precio final con descuento por id.
 				</h3>
 
-		</div>
+     
+    </div>
+  </div>
+</div>
 
-		<div class="CajaAbajo animated bounceInUp">
-				<a  class="MiBotonUTNLinea" onclick="location.href='index.html'" >Men&uacute; ejercicios</a>
-	</div>
+<div class="footer">
+  
+  	
+  	<p>Curso de ingreso UTN FRA</p>
+</div>
 
-	</body>
+</body>
 </html>
