@@ -9,7 +9,6 @@ var nombre;
 
 nombre=prompt("Por favor ingrese sus datos");
 //Nombre.value=nombre;
-
 document.getElementById("elNombre").value;
 
 
