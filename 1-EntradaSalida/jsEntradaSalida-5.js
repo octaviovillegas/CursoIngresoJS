@@ -8,6 +8,7 @@ var nombre;
 var edad;
 
  nombre = elNombre.value;
+ 
  edad   = laEdad.value;
 
 //alert(nombre + edad);
