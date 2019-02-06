@@ -7,9 +7,11 @@ function mostrar()
 
 var nombre;
 
-nombre= prompt("Por favor ingrese sus datos");
+nombre=prompt("Por favor ingrese sus datos");
+//Nombre.value=nombre;
 
-elNombre.value = nombre;
+document.getElementById("elNombre").value;
+
 
 }
 
