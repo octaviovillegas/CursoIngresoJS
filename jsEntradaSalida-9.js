@@ -7,21 +7,52 @@ function mostrarAumento()
    
 
    var sueldo;
+   var sueldoConAumento;
    var aumento;
-       
 
-       sueldo = Sueldo.value;
+
+    sueldo = document.getElementById('sueldo').value;
+    //sueldo = document.getElementById('sueldoConAumento').value; 
+    sueldo = parseFloat(sueldo);
+    	
+    		aumento = sueldo * 0.1;
+    	
+    			sueldoConAumento = sueldo + aumento;
+    	
+    				document.getElementById('resultado').value = sueldoConAumento;
+
+
+      
+
+
+
+        //sueldoConAumento = sueldo * 1.1;
+
+
+        //alert("Su aumento es: " + sueldoConAumento)
+
+
+        //porcentaje = sueldo * 20 / 100;
+        //sueldoConAumento = sueldo + porcentaje;
+           
+
+
+
+
+
+
+       /*salario = sueldo.value;
        aumento = mostrarAumento.value;
-       
+       numeroDecimal = 1.1;
 
-          sueldo = parseInt.value;
-          aumento = parseInt.value;
-
-
-             aumento = sueldo * 1,1;
+          salario = parseInt.value;
+          sueldoaPagar = parseInt.value;
 
 
-                alert("RESULTADO " + aumento);
+             aumento = salario * numeroDecimal;
+
+
+                alert("RESULTADO: " + aumento);*/
 
 
 
