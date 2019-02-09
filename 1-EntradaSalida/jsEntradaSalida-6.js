@@ -20,6 +20,20 @@ function sumar()
 	
 
 //alert( primerNumero + segundoNumero);
+/*var numeroUno;
+var numeroDos;
+var numero;
+
+
+numeroUno = document.getElementById('numeroUno').value;
+numeroDos = document.getElementById('numeroDos').value;
+
+numeroUno =parseInt(numeroUno);
+numeroUno =parseInt(numeroDos);
+
+suma = numeroUno + numeroDos;
+
+alert ("Su suma es: " + suma);*/
 
 }
 
