@@ -10,5 +10,19 @@ E.	Si el importe final con descuento suma más de $120  se debe sumar un 10% de 
  */
 function CalcularPrecio () 
 {
- 	
+	var marcaLamparas;
+	var cantidadLamparas;
+	var descuentoLamparas;
+
+	marcaLamparas = Marca.value;
+	cantidadLamparas = Cantidad.value;
 }
+/*Cantidad de lámparas" id="Cantidad">
+				<SELECT id="Marca">
+					<OPTION >ArgentinaLuz</OPTION>
+					<OPTION >FelipeLamparas</OPTION>
+					<OPTION >JeLuz</OPTION>
+					<OPTION >HazIluminacion</OPTION>
+					<OPTION >Osram</OPTION>
+				</SELECT>
+					<input type="text" readonly placeholder="Precio con descuento" id="precioDescuento">*/
