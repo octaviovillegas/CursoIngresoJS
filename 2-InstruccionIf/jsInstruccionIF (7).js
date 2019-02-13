@@ -1,33 +1,21 @@
 function mostrar()
 {
 //tomo la edad  
+	var laEdad;
+	var elEstadoCivil;
 
-var suEstadoCivil;
-var laEdad;
+	//laEdad = edad.value;
+	//elEstadoCivil = estadoCivil.value;
 
-laEdad = 
+	laEdad = document.getElementById('edad').value;
+	elEstadoCivil = document.getElementById('estadoCivil').value;
 
+	//laEdad = parseInt(laEdad);
+	//elEstadoCivil = parseInt(elEstadoCivil);
 
-
-
-
-
-
-
-
-	/*var laEdad;
-	var suEstadoCivil;
-
-	laEdad = edad.value;
-	suEstadoCivil = estadoCivil.value;
-
-	laEdad = parseInt(laEdad);
-	suEstadoCivil = estadoCivil.value;
-
-	if (laEdad ) 
+	if (laEdad < 18 || elEstadoCivil == Divorciado == Casado)
 	{
-		alert("Usted es adolescente");
-	}*/
-
+		alert("Es muy pequeño para NO ser soltero");
+	}
 
 }//FIN DE LA FUNCIÓN
