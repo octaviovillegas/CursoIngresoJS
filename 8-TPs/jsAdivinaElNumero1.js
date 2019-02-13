@@ -16,11 +16,32 @@ function comenzar()
 	 
 		//alert(numeroSecreto );
 	
+	numeroSecreto = Math.floor((Math.random() * 100) + 1);
+	
+	console.log(numeroSecreto);
+
+	contadorIntentos = 0;
 
 }
 
 function verificar()
 {
-	
-	
+	numeroIngresado = numero.value;
+	var numeroIngresado;
+	contadorIntentos = contadorIntentos + 1;
+	if (numeroIngresado == numeroSecreto) 
+	{
+		alert("Usted es un ganador!!! y en solo " + contadorIntentos + " intentos");
+	}
+	else
+	{
+		if (numeroIngresado < numeroSecreto) 
+		{
+			alert("falta");
+		}
+		else
+		{
+			alert("te pasaste");
+		}
+	}
 }
