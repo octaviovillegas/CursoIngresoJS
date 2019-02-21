@@ -22,7 +22,6 @@ while (sexo != "f" && sexo != "m")
 	alert("Ingrese correctamente el sexo");
 
 	sexo = prompt("Ingrese nuevamente el sexo");
-
 }
 
 alert("Ustede ingreso: " + sexo);
