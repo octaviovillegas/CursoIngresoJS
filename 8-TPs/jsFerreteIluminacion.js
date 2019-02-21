@@ -11,7 +11,7 @@ E.	Si el importe final con descuento suma más de $120  se debe sumar un 10% de 
 function CalcularPrecio () 
 {
 	
-	var marcaLamparas;
+	/*var marcaLamparas;
 	var cantidadLamparas;
 	var descuentoLamparas;
 	var precio;
@@ -87,7 +87,7 @@ function CalcularPrecio ()
 	else
 	{
 		descuentoLamparas = alert("Precio a pagar: $" + descuentoLamparas);
-	}
+	}*/
 
 
 
@@ -160,6 +160,66 @@ function CalcularPrecio ()
 	}*/
 
 	/*descuentoLamparas = alert("$" + descuentoLamparas);*/
+
+
+var valUno;
+var valDos;
+var valTres;
+var valCuatro;
+var resultado;
+var final;
+//var mensaje;
+
+valUno = pareInt(valUno);
+valDos = pareInt(valDos);
+valTres =pareInt(valTres);
+valCuatro = pareInt(valCuatro);
+
+
+valUno = prompt("V1");
+valDos =  prompt("V2");
+valTres = prompt("V3");
+valCuatro  = prompt("V4");
+
+resultado = valUno + valDos + valTres + valCuatro;
+
+if (valUno == valDos == valTres == valCuatro) 
+{
+	alert(valUno + valDos + valTres + valCuatro);
+
+}
+else if (resultado > 100) 
+{
+	final = resultado * 0.5 
+	alert(resultado);
+}
+else if (resultado > 50) 
+{
+	resultado = 
+	alert(resultado);  
+}
+else if (resultado < 50) 
+{
+	resultado =
+	alert(resultado);
+}
+else if (valUno >= valDos) && (valUno >= valTres)  && (valUno >= valCuatro) 
+
+	alert(valUno);
+} 
+else if (valDos >= valUno) && (valDos >= valTres) && (valDos >= valCuatro) 
+{
+ 	alert(valDos);
+}
+else if (valTres >= valDos) && (valTres >= valUno) && (valTres >= valCuatro ) 
+{
+ 	alert(valTres);
+}
+else if () 
+{
+	alert(valCuatro);
+}
+
 
 
 

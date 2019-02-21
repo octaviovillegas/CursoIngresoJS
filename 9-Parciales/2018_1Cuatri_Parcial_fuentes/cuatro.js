@@ -1,7 +1,7 @@
 function mostrar()
 {
 
-var numeroUno;
+/*var numeroUno;
 var numeroDos;
 var operacion;
 
@@ -28,10 +28,29 @@ if (numeroUno > numeroDos)
 if (operacion > 10 ) 
 {
 	alert("La suma es " + operacion + " y superó el 10");
+}*/
+
+var valUno;
+var valDos;
+var valTres;
+var valCuatro;
+var resultado;
+
+valUno = pareInt(valUno);
+valDos = pareInt(valDos);
+valTres =pareInt(valTres);
+valCuatro = pareInt(valCuatro);
+
+
+
+if (valUno == valDos == valTres == valCuatro) 
+{
+	alert(valUno == valDos == valTres == valCuatro);
 }
-
-
-
+else if () 
+{
+	alert()
+}
 
 
 
