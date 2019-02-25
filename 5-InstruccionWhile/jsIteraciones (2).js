@@ -11,7 +11,7 @@ function mostrar()
 		contador = contador - 1;
 
 	}*/
-var contador = 10; //Por donde va a comenzar
+/*var contador = 10; //Por donde va a comenzar
 
 while (contador > 0) //A donde termina
 {
@@ -19,7 +19,18 @@ while (contador > 0) //A donde termina
 	alert(contador); //Lo que esta haciendo el contador
 
 	contador = contador - 1; //Sentido del contador
+}*/
+
+var contador = 10;
+
+while(contador > 0) 
+{
+	alert(contador);
+	contador = contador - 1;
 }
+
+
+
 	
 	/*
 var contador; 

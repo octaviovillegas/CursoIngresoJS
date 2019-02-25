@@ -1,4 +1,4 @@
-function mostrar()
+ 	function mostrar()
 {
 
 /*var clave = prompt("ingrese el número clave.");
@@ -13,15 +13,15 @@ alert("Clave Valida");*/
 
 	var clave;
 
-	clave = prompt("Ingrese la clave");
+	clave = prompt("Ingrese la clave"); //pedir clave
 
-	while (clave != "utnFRA") 
+	while (clave != "utnFRA") //introducir clave y exeptuar todo lo incorrecto
 	{
-		alert("Clave inválida");
-		clave = prompt("Vuelve a ingresar la clave", "XXXXX");
+		alert("Clave inválida"); //aviso de incorrección
+		clave = prompt("Vuelve a ingresar la clave", "XXXXX"); //segundo pedido de clave 			
 	}
 
-	alert("Clave válida");
+	alert("Clave válida"); //aviso clave correcta
 
 
 
