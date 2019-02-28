@@ -102,7 +102,7 @@ document.write("10: " + contador10 + " veces y un " + (contador10 * 100) / conta
 
 palabra = "luz";
 
-palabra[i]
+palabra[1]
 
 for(i = 0; palabra.length; i ++) 
 {
