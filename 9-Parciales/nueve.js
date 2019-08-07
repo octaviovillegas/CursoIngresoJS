@@ -32,7 +32,7 @@ do{
         contadorTemp++;
     }
 
-    if(peso > masPesado || flag == 0){
+    if(flag == 0){
         masPesado = peso;
         menosPesado = peso;
         marcaPesado = producto;
