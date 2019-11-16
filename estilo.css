@@ -110,6 +110,9 @@ color:black;
 }
 
 .footer {
+  bottom: 0;
+    width: 100%;
+    position: fixed;
   background-color: #0099cc;
   color: #ffffff;
   text-align: center;
