@@ -18,8 +18,9 @@ ejercitación y TP para rendir el examen de ingreso
 # Contenido de la WEB
 
 
-![principal](http://octaviovillegas.github.io/CursoIngresoJS/img/cjs principal.png)
-**Usage**
+
+![principal](http://octaviovillegas.github.io/CursoIngresoJS/img/cjsprincipal.png)
+**uso**
 ---
 
 ```
