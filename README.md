@@ -7,8 +7,17 @@ ejercitación y TP para rendir el examen de ingreso
 
 [Pagina en la WEB](http://octaviovillegas.github.io/CursoIngresoJS/index.html)
 
-![QR](http://octaviovillegas.github.io/CursoIngresoJS/img/qrInicio.png)
 
+<h1 align="center">
+  <br>
+   ![QR](http://octaviovillegas.github.io/CursoIngresoJS/img/qrInicio.png)
+  <br>
+  Markdownify
+  <br>
+</h1>
+
+
+</center>
 
 
 -----
@@ -24,16 +33,9 @@ ejercitación y TP para rendir el examen de ingreso
 ---
 
 ```
-Usage: stronghold.py [OPTIONS]
-
-  Securely configure your Mac.
-  Developed by Aaron Lichtman -> (Github: alichtman)
+Selecciona la sección que quieres ver...
 
 
-Options:
-  -lockdown  Set secure configuration without user interaction.
-  -v         Display version and author information and exit.
-  -help, -h  Show this message and exit.
 ```
 
 
