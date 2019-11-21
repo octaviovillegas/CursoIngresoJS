@@ -18,7 +18,7 @@ ejercitación y TP para rendir el examen de ingreso
 
 >Los ejercicios tienen un incremento de complejidad que acompaña la complejidad del tema abordado.
 
->Es necesario comprender el tema anterior para continuar con los siguientes Temas.
+>Es necesario comprender el tema anterior para continuar con los siguientes temas.
 
 >Cada tema tiene en los enuciados el objetivo que se deben cumplir.
 
@@ -27,10 +27,19 @@ ejercitación y TP para rendir el examen de ingreso
  
 
 
+> 1 . crear una cuenta en GitHub (Lo mas recomendable).
+
+>Hacer FORK del repositorio.
+
+![principal](http://octaviovillegas.github.io/CursoIngresoJS/img/fork.png)
+
  
 
-> 1 . Si no tenes cuanta en GitHub (se recomienda tener una cuenta).
->Descargar el ZIP del repositorio.
+> 2 . Descargar el ZIP
+
+>Tengas o no cuenta en GitHub.
+se debe descargar el .ZIP
+
 
 ![principal](http://octaviovillegas.github.io/CursoIngresoJS/img/bajarzip.gif)
 
@@ -38,13 +47,6 @@ ejercitación y TP para rendir el examen de ingreso
 
 
 
-
-
-> 2 . Si no tenes cuanta en GitHub (Lo mas recomendable).
-
->Hacer FORK del repositorio.
-
-![principal](http://octaviovillegas.github.io/CursoIngresoJS/img/fork.png)
 
 
 -----
