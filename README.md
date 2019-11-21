@@ -23,13 +23,17 @@ ejercitación y TP para rendir el examen de ingreso
 >Cada tema tiene en los enuciados el objetivo que se deben cumplir.
 
 
-# ¿Que debo hacer para poder programar y responder a los solicita el enunciado.?
+# ¿Que debo hacer para poder programar y responder a los enunciados.?
  
 
 
  
 
 > 1 . Si no tenes cuanta en GitHub (se recomienda tener una cuenta).
+>Descargar el ZIP del repositorio.
+
+![principal](http://octaviovillegas.github.io/CursoIngresoJS/img/bajarzip.gif)
+
 
 
 
