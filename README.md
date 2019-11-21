@@ -7,10 +7,18 @@ ejercitación y TP para rendir el examen de ingreso
 
 [Pagina en la WEB](http://octaviovillegas.github.io/CursoIngresoJS/index.html)
 
+![QR](http://octaviovillegas.github.io/CursoIngresoJS/img/qrInicio.png)
 
 
 
-![](https://github.com/octaviovillegas/CursoIngresoJS/blob/master/img/cd%20entreadasalida.png)
+-----
+
+
+
+# Contenido de la WEB
+
+
+![principal](http://octaviovillegas.github.io/CursoIngresoJS/img/cjs principal.png)
 **Usage**
 ---
 
