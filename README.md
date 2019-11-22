@@ -157,16 +157,16 @@ function mostrarImporteDeUnViaje()
 
 
 **A tener en cuenta**
-* Los cuestionarios se habilitan en ciertas fechas ya estipuladas.:date:
-* Se debe contestar sin buscar en la web las respuestas.:no_entry_sign:
-* Se debe contestar sin realizar pruebas de código.:no_entry_sign:
-* Se debe iniciar sesion en google para ingresar a los cuestionarios.:bust_in_silhouette:
-* Solo se puede contestar una vez cada cuestionario.:hand:
+* :date:Los cuestionarios se habilitan en ciertas fechas ya estipuladas.
+* :no_entry_sign:Se debe contestar sin buscar en la web las respuestas.
+* :no_entry_sign:Se debe contestar sin realizar pruebas de código.
+* :bust_in_silhouette:Se debe iniciar sesion en google para ingresar a los cuestionarios.
+* :hand:Solo se puede contestar una vez cada cuestionario.
 
 **Las respuestas recibidas  son analizadas para:**
-* Hacer una mejora continua del curso.
-* Reforzar conceptos que sean necesarios.
-* Tener la evolución del alumno durante el curso.
+* :exclamation:Hacer una mejora continua del curso.
+* :muscle:Reforzar conceptos que sean necesarios.
+* :mortar_board:Tener la evolución del alumno durante el curso.
 
 
 
