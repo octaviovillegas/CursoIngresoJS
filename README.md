@@ -119,7 +119,7 @@ y no las consultas sobre programación
 
 -----
 # Ejemplo 
------
+
 
 ```
 function mostrarImporteDeUnViaje()
@@ -153,7 +153,15 @@ function mostrarImporteDeUnViaje()
 
 -----
 # Cuestionario 
------
+
+**a tener en cuenta**
+* Los cuestionarios se habilitan en ciertas fechas ya estipuladas.
+* Se debe contestar sin buscar en la web las respuestas.
+* Se debe contestar sin realizar puebas de codigo.
+* Las respuestas recibidas  son analizadas para:
+     * Hacer una mejora continua del curso.
+     * Reforzar conceptos que sean necesarios.
+     * Tener la evolucion del alumno durente el curso
 
 
 [Cuestionario entrada y salida de datos](https://forms.gle/QY8L3362sKLCE5kx8)
