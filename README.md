@@ -69,7 +69,8 @@ se debe descargar el .ZIP
 >* consultas sobre enunciados
 >* textos con errores que imposibiliten el funcionamiento
 
-*y no las consultas sobre programación*
+*las que**No se resonden**, son las consultas sobre programación*
+
 
 
 ![issues](http://octaviovillegas.github.io/CursoIngresoJS/img/issues.png)
