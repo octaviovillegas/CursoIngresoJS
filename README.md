@@ -92,10 +92,6 @@ y no las consultas sobre programación
 
 -----
 # Contenidos 
-
-
-
-
 -----
 
 
@@ -119,9 +115,9 @@ y no las consultas sobre programación
 
 
 
-
-**Ejemplo**
----
+-----
+# Ejemplo 
+-----
 
 ```
 function mostrarImporteDeUnViaje()
@@ -153,6 +149,8 @@ function mostrarImporteDeUnViaje()
 
 
 
+-----
+# Cuestionario 
 -----
 
 
