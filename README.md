@@ -3,7 +3,7 @@ Curso de ingreso con JavaScript
 
 ejercitación y TP para rendir el examen de ingreso 
 # **UTNFRA**
-**Tecnico superior en programación**
+Técnico superior en programación
 
 [Pagina en la WEB](http://octaviovillegas.github.io/CursoIngresoJS/index.html)
 ![QR](http://octaviovillegas.github.io/CursoIngresoJS/img/qrInicio.png)
@@ -11,23 +11,23 @@ ejercitación y TP para rendir el examen de ingreso
 
 -----
 
-# ¿Cómo esta organizado?
+# ¿Cómo está organizado?
  
 
->Esta separado el contenido para cada tema en ejercicios.
+>Está separado el contenido para cada tema en ejercicios.
 
 >Los ejercicios tienen un incremento de complejidad que acompaña la complejidad del tema abordado.
 
 >Es necesario comprender el tema anterior para continuar con los siguientes temas.
 
->Cada tema tiene en los enuciados el objetivo que se deben cumplir.
+>Cada tema tiene en los enunciados el objetivo que se deben cumplir.
 
 
 # ¿Que debo hacer para poder programar y responder a los enunciados.?
  
 
 
-* 1 . Crear una cuenta en GitHub (Lo mas recomendable).
+* 1 . Crear una cuenta en GitHub (lo más recomendable).
 >Hacer FORK del repositorio.
 
 ![principal](http://octaviovillegas.github.io/CursoIngresoJS/img/fork.png)
@@ -49,7 +49,7 @@ se debe descargar el .ZIP
 
 >[SublimeText](https://www.sublimetext.com/3)
 
-* 4 . Mostar el curso de ingreso en el navegador de internet**
+* 4 . Mostrar el curso de ingreso en el navegador de internet**
 
 >Después de descomprimir la carpeta, ingresamos, tomamos el archivo index.html y lo abrimos/lanzamos en el navegador.
 
@@ -78,9 +78,9 @@ y no las consultas sobre programación
 -----
 # Ingreso a la Web 
 -----
-**Menu Principal**
->Una vez que tenemos todo correcto deberiamos ver la siguiente pagina con el menu de acceso a todos los ejercicios.
->Este menu te lleva por cada tema explorado en este curso de ingreso.
+**Menú Principal**
+>Una vez que tenemos todo correcto deberíamos ver la siguiente página con el menú de acceso a todos los ejercicios.
+>Este menú te lleva por cada tema explorado en este curso de ingreso.
 
 
 ![principal](http://octaviovillegas.github.io/CursoIngresoJS/img/principal.gif)
@@ -102,11 +102,11 @@ y no las consultas sobre programación
 * Interactuar con el usuario.
 * Mostrar información acorde a lo pedido.
 * Tomar datos como cadena de caracteres y transformarlos a número.
-* Manejo de porcentajes dinamicos sobre valores dinamicos.
+* Manejo de porcentajes dinámicos sobre valores dinámicos.
 
 **Ejercicios del TP**
 * 1-Ferrete facturación.
-* 2-Ferrete construcción.
+* 2-Ferrete construción.
 * 3-Ferrete pinturas.
 
 [PDF de los TPs](http://octaviovillegas.github.io/CursoIngresoJS/Guia%20de%20TPs%20curso%20de%20ingreso.pdf)
@@ -129,4 +129,7 @@ Selecciona la sección que quieres ver...
 
 
 -----
+
+
+[Cuestionario entrada y salida de datos](https://forms.gle/QY8L3362sKLCE5kx8)
 
