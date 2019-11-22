@@ -68,10 +68,10 @@ se debe descargar el .ZIP
 
 >Este espacio de las "ISSUES" es para solucionar temas Como:
 >* funcionales de la WEB.
->* consultas sobre enunciados
->* textos con errores que imposibiliten el funcionamiento
+>* consultas sobre enunciados.
+>* textos con errores que imposibiliten el funcionamiento.
  
-:no_entry_sign:*las consultas que **No se responden**, son las consultas sobre los algoritmos de programación*
+:no_entry_sign:*las consultas que **No se responden**, son las consultas sobre los algoritmos de programación.*
 
 
 
