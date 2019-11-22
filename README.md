@@ -124,7 +124,7 @@ y no las consultas sobre programación
 ```
 function mostrarImporteDeUnViaje()
 {
-   //definicion de variables
+   //definición de variables
    var destino;
    var importe;
    var porcentajeDeImpuestos;
@@ -132,7 +132,7 @@ function mostrarImporteDeUnViaje()
    var importeTotal;
    
    //Entrada de datos
-   destino= prompt("ingrese destino", "La costa atlantica");
+   destino= prompt("ingrese destino", "La costa atlántica");
    porcentajeDeImpuestos = prompt("ingrese porcentaje impositivo", "25");
    porcentajeDeImpuestos=parseInt(porcentajeDeImpuestos);
    importe =document.getElementById('importe').value;
@@ -153,19 +153,22 @@ function mostrarImporteDeUnViaje()
 
 -----
 # Cuestionario 
+[Cuestionario entrada y salida de datos](https://forms.gle/QY8L3362sKLCE5kx8)
+
 
 **A tener en cuenta**
 * Los cuestionarios se habilitan en ciertas fechas ya estipuladas.
 * Se debe contestar sin buscar en la web las respuestas.
-* Se debe contestar sin realizar puebas de codigo.
-* Se debe iniciar sesion en google para ingresar a los cuationarios.
+* Se debe contestar sin realizar pruebas de código.
+* Se debe iniciar sesion en google para ingresar a los cuestionarios.
 * Solo se puede contestar una vez cada cuestionario.
 
 **Las respuestas recibidas  son analizadas para:**
-     * Hacer una mejora continua del curso.
-     * Reforzar conceptos que sean necesarios.
-     * Tener la evolucion del alumno durente el curso
+* Hacer una mejora continua del curso.
+* Reforzar conceptos que sean necesarios.
+* Tener la evolución del alumno durante el curso.
 
 
-[Cuestionario entrada y salida de datos](https://forms.gle/QY8L3362sKLCE5kx8)
+
+
 
