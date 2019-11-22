@@ -69,8 +69,7 @@ se debe descargar el .ZIP
 >* consultas sobre enunciados
 >* textos con errores que imposibiliten el funcionamiento
 
-
-y no las consultas sobre programación
+*y no las consultas sobre programación*
 
 
 ![issues](http://octaviovillegas.github.io/CursoIngresoJS/img/issues.png)
@@ -121,7 +120,7 @@ y no las consultas sobre programación
 ## Ejemplo 
 
 
-```
+```[JavaScript]
 function mostrarImporteDeUnViaje()
 {
    //definición de variables
