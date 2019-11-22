@@ -106,9 +106,9 @@ se debe descargar el .ZIP
 * Manejo de porcentajes dinámicos sobre valores dinámicos.
 
 **Ejercicios del TP**
-* 1-Ferrete facturación.
-* 2-Ferrete construción.
-* 3-Ferrete pinturas.
+* 1-Ferrete facturación.:heavy_check_mark:
+* 2-Ferrete construción.:heavy_check_mark:
+* 3-Ferrete pinturas.:heavy_check_mark:
 
 [PDF de los TPs](http://octaviovillegas.github.io/CursoIngresoJS/Guia%20de%20TPs%20curso%20de%20ingreso.pdf)
 
