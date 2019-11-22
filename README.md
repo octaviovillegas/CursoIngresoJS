@@ -4,7 +4,7 @@ Curso de ingreso con JavaScript
 
 ejercitación y TP para rendir el examen de ingreso 
 # **UTNFRA**
-# **Técnico superior en programación**
+## **Técnico superior en programación**
 
 [Pagina en la WEB](http://octaviovillegas.github.io/CursoIngresoJS/index.html)
 
@@ -14,7 +14,7 @@ ejercitación y TP para rendir el examen de ingreso
 
 -----
 
-# ¿Cómo está organizado?
+### ¿Cómo está organizado?
  
 * Cada concepto abordado tiene una serie de ejercicios a resolver. 
 
@@ -27,7 +27,7 @@ ejercitación y TP para rendir el examen de ingreso
 * Cada tema tiene en los enunciados el objetivo que se deben cumplir.
 
 
-# ¿Que debo hacer para poder programar y responder a los enunciados.?
+### ¿Que debo hacer para poder programar y responder a los enunciados.?
  
 
 
@@ -60,7 +60,7 @@ se debe descargar el .ZIP
 
 
 
-# ¿Qué debo hacer para proponer mejoras o hacer consultas sobre errores ?
+### ¿Qué debo hacer para proponer mejoras o hacer consultas sobre errores ?
  
 * Debo entrar en la issues **
 
@@ -80,7 +80,7 @@ y no las consultas sobre programación
 
 
 -----
-# Ingreso a la Web 
+## Ingreso a la Web 
 
 
 **Menú Principal**
@@ -118,7 +118,7 @@ y no las consultas sobre programación
 
 
 -----
-# Ejemplo 
+## Ejemplo 
 
 
 ```
@@ -152,7 +152,7 @@ function mostrarImporteDeUnViaje()
 
 
 -----
-# Cuestionario 
+## Cuestionario 
 [Cuestionario entrada y salida de datos](https://forms.gle/QY8L3362sKLCE5kx8)
 
 
