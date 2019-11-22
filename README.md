@@ -3,9 +3,11 @@ Curso de ingreso con JavaScript
 
 ejercitación y TP para rendir el examen de ingreso 
 # **UTNFRA**
-Técnico superior en programación
+# **Técnico superior en programación**
 
 [Pagina en la WEB](http://octaviovillegas.github.io/CursoIngresoJS/index.html)
+
+
 ![QR](http://octaviovillegas.github.io/CursoIngresoJS/img/qrInicio.png)
 
 
@@ -14,7 +16,7 @@ Técnico superior en programación
 # ¿Cómo está organizado?
  
 
-* Está separado el contenido para cada tema en ejercicios.
+* Está el contenido para cada tema, con sus ejercicios .
 
 * Los ejercicios tienen un incremento de complejidad que acompaña la complejidad del tema abordado.
 
