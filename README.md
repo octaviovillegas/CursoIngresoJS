@@ -27,14 +27,14 @@ ejercitación y TP para rendir el examen de ingreso
  
 
 
-> **1 . Crear una cuenta en GitHub (Lo mas recomendable).**
+* 1 . Crear una cuenta en GitHub (Lo mas recomendable).
 >Hacer FORK del repositorio.
 
 ![principal](http://octaviovillegas.github.io/CursoIngresoJS/img/fork.png)
 
  
 
-** 2. Descargar el ZIP**
+ * 2 . Descargar el ZIP
 >Tengas o no cuenta en GitHub.
 se debe descargar el .ZIP
 
@@ -42,14 +42,14 @@ se debe descargar el .ZIP
 ![principal](http://octaviovillegas.github.io/CursoIngresoJS/img/bajarzip.gif)
 
 
->** 3. utilizar un editor de texto liviano y de software libre**
+* 3 . Utilizar un editor de texto liviano y de software libre******
 
 >Se puede utilizar el que quieran, si no conocen ninguno, aca le paso el link de uno liviano , portable multiplataforma y de software libre.
 
 
 >[SublimeText](https://www.sublimetext.com/3)
 
-> ** 4. Mostar el curso de ingreso en el navegador de internet**
+* 4 . Mostar el curso de ingreso en el navegador de internet**
 
 >Despúes de descomprimir la carpeta, ingresamos, tomamos el archivo index.html y lo abrimos/lanzamos en el navegador.
 
