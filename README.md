@@ -124,8 +124,30 @@ y no las consultas sobre programación
 ---
 
 ```
-Selecciona la sección que quieres ver...
-
+function mostrarImporteDeUnViaje()
+{
+   //definicion de variables
+   var destino;
+   var importe;
+   var porcentajeDeImpuestos;
+   var valorDelImpuesto;
+   var importeTotal;
+   
+   //Entrada de datos
+   destino= prompt("ingrese destino", "La costa atlantica");
+   porcentajeDeImpuestos = prompt("ingrese porcentaje impositivo", "25");
+   porcentajeDeImpuestos=parseInt(porcentajeDeImpuestos);
+   importe =document.getElementById('importe').value;
+   importe=parseInt(importe);
+   
+   //Operaciones
+   valorDelImpuesto=importe * porcentajeDeImpuestos/100;
+   importeTotal=importe+valorDelImpuesto;
+   
+   //Salidad de datos
+   document.getElementById('resultado').value =importeTotal;
+   alert("el viaje a "+destino+" tiene un costo total de :$"+importeTotal);
+}
 
 ```
 
