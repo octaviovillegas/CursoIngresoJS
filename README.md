@@ -28,7 +28,6 @@ ejercitación y TP para rendir el examen de ingreso
 
 
 > **1 . Crear una cuenta en GitHub (Lo mas recomendable).**
-
 >Hacer FORK del repositorio.
 
 ![principal](http://octaviovillegas.github.io/CursoIngresoJS/img/fork.png)
@@ -36,7 +35,6 @@ ejercitación y TP para rendir el examen de ingreso
  
 
 >** 2 . Descargar el ZIP**
-
 >Tengas o no cuenta en GitHub.
 se debe descargar el .ZIP
 
@@ -73,10 +71,11 @@ se debe descargar el .ZIP
 # Ingreso a la Web 
 -----
 **Menu Principal**
-> Este menu te lleva por cada tema explorado en este cusro de ingreso.
+>Una vez que tenemos todo correcto deberiamos ver la siguiente pagina con el menu de acceso a todos los ejercicios.
+>Este menu te lleva por cada tema explorado en este curso de ingreso.
 
 
-![principal](http://octaviovillegas.github.io/CursoIngresoJS/img/cjsprincipal.png)
+![principal](http://octaviovillegas.github.io/CursoIngresoJS/img/principal.gif)
 
 
 
