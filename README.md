@@ -160,7 +160,7 @@ function mostrarImporteDeUnViaje()
 * :date:Los cuestionarios se habilitan en ciertas fechas ya estipuladas.
 * :no_entry_sign:Se debe contestar sin buscar en la web las respuestas.
 * :no_entry_sign:Se debe contestar sin realizar pruebas de código.
-* :bust_in_silhouette:Se debe iniciar sesion en google para ingresar a los cuestionarios.
+* :passport_control:Se debe iniciar sesion en google para ingresar a los cuestionarios.
 * :hand:Solo se puede contestar una vez cada cuestionario.
 
 **Las respuestas recibidas  son analizadas para:**
