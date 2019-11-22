@@ -81,7 +81,8 @@ y no las consultas sobre programación
 
 -----
 # Ingreso a la Web 
------
+
+
 **Menú Principal**
 >Una vez que tenemos todo correcto deberíamos ver la siguiente página con el menú de acceso a todos los ejercicios.
 >Este menú te lleva por cada tema explorado en este curso de ingreso.
