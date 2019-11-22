@@ -34,7 +34,7 @@ ejercitación y TP para rendir el examen de ingreso
 
  
 
->** 2. Descargar el ZIP**
+** 2. Descargar el ZIP**
 >Tengas o no cuenta en GitHub.
 se debe descargar el .ZIP
 
@@ -49,7 +49,7 @@ se debe descargar el .ZIP
 
 >[SublimeText](https://www.sublimetext.com/3)
 
->** 4. Mostar el curso de ingreso en el navegador de internet**
+> ** 4. Mostar el curso de ingreso en el navegador de internet**
 
 >Despúes de descomprimir la carpeta, ingresamos, tomamos el archivo index.html y lo abrimos/lanzamos en el navegador.
 
