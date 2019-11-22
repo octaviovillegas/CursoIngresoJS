@@ -92,7 +92,7 @@ y no las consultas sobre programación
 
 
 -----
-# Contenidos 
+# Entrada y salida de datos 
 -----
 
 
