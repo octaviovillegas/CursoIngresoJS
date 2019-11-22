@@ -15,8 +15,9 @@ ejercitación y TP para rendir el examen de ingreso
 
 # ¿Cómo está organizado?
  
+* Cada concepto abordado tiene una serie de ejercicios a resolver. 
 
-* Está el contenido para cada tema, con sus ejercicios .
+* Se debe realizar los ejercicios en el orden que se presentan.
 
 * Los ejercicios tienen un incremento de complejidad que acompaña la complejidad del tema abordado.
 
