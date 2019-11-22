@@ -31,14 +31,14 @@ ejercitación y TP para rendir el examen de ingreso
  
 
 
-* 1 . Crear una cuenta en GitHub (lo más recomendable).
+* :one: . Crear una cuenta en GitHub (lo más recomendable).
 >Hacer FORK del repositorio.
 
 ![principal](http://octaviovillegas.github.io/CursoIngresoJS/img/fork.png)
 
  
 
- * 2 . Descargar el ZIP
+ * :two: . Descargar el ZIP
 >Tengas o no cuenta en GitHub.
 se debe descargar el .ZIP
 
@@ -46,14 +46,14 @@ se debe descargar el .ZIP
 ![principal](http://octaviovillegas.github.io/CursoIngresoJS/img/bajarzip.gif)
 
 
-* 3 . Utilizar un editor de texto liviano y de software libre******
+* :three: . Utilizar un editor de texto liviano y de software libre******
 
 >Se puede utilizar el que quieran, si no conocen ninguno, aca le paso el link de uno liviano , portable multiplataforma y de software libre.
 
 
 >[SublimeText](https://www.sublimetext.com/3)
 
-* 4 . Mostrar el curso de ingreso en el navegador de internet**
+* :four: . Mostrar el curso de ingreso en el navegador de internet**
 
 >Después de descomprimir la carpeta, ingresamos, tomamos el archivo index.html y lo abrimos/lanzamos en el navegador.
 
@@ -157,11 +157,11 @@ function mostrarImporteDeUnViaje()
 
 
 **A tener en cuenta**
-* Los cuestionarios se habilitan en ciertas fechas ya estipuladas.
-* Se debe contestar sin buscar en la web las respuestas.
-* Se debe contestar sin realizar pruebas de código.
-* Se debe iniciar sesion en google para ingresar a los cuestionarios.
-* Solo se puede contestar una vez cada cuestionario.
+* Los cuestionarios se habilitan en ciertas fechas ya estipuladas.:date:
+* Se debe contestar sin buscar en la web las respuestas.:no_entry_sign:
+* Se debe contestar sin realizar pruebas de código.:no_entry_sign:
+* Se debe iniciar sesion en google para ingresar a los cuestionarios.:bust_in_silhouette:
+* Solo se puede contestar una vez cada cuestionario.:hand:
 
 **Las respuestas recibidas  son analizadas para:**
 * Hacer una mejora continua del curso.
