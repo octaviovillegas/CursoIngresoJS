@@ -154,11 +154,14 @@ function mostrarImporteDeUnViaje()
 -----
 # Cuestionario 
 
-**a tener en cuenta**
+**A tener en cuenta**
 * Los cuestionarios se habilitan en ciertas fechas ya estipuladas.
 * Se debe contestar sin buscar en la web las respuestas.
 * Se debe contestar sin realizar puebas de codigo.
-* Las respuestas recibidas  son analizadas para:
+* Se debe iniciar sesion en google para ingresar a los cuationarios.
+* Solo se puede contestar una vez cada cuestionario.
+
+**Las respuestas recibidas  son analizadas para:**
      * Hacer una mejora continua del curso.
      * Reforzar conceptos que sean necesarios.
      * Tener la evolucion del alumno durente el curso
