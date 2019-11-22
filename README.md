@@ -14,13 +14,13 @@ Técnico superior en programación
 # ¿Cómo está organizado?
  
 
->Está separado el contenido para cada tema en ejercicios.
+* Está separado el contenido para cada tema en ejercicios.
 
->Los ejercicios tienen un incremento de complejidad que acompaña la complejidad del tema abordado.
+* Los ejercicios tienen un incremento de complejidad que acompaña la complejidad del tema abordado.
 
->Es necesario comprender el tema anterior para continuar con los siguientes temas.
+* Es necesario comprender el tema anterior para continuar con los siguientes temas.
 
->Cada tema tiene en los enunciados el objetivo que se deben cumplir.
+* Cada tema tiene en los enunciados el objetivo que se deben cumplir.
 
 
 # ¿Que debo hacer para poder programar y responder a los enunciados.?
