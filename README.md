@@ -51,14 +51,22 @@ se debe descargar el .ZIP
 
 * 4 . Mostar el curso de ingreso en el navegador de internet**
 
->Despúes de descomprimir la carpeta, ingresamos, tomamos el archivo index.html y lo abrimos/lanzamos en el navegador.
+>Después de descomprimir la carpeta, ingresamos, tomamos el archivo index.html y lo abrimos/lanzamos en el navegador.
 
 
 
 
 # ¿Que debo hacer para proponer mejoras o hacer consultas sobre errores ?
  
-> **Debo entrar en la issues **
+* Debo entrar en la issues **
+
+>Este espacio de las "ISSUES" es para solucionar temas Como
+>* funcionales de la WEB.
+>* consultas sobre enunciados
+>* textos con errores que imposibiliten el funcionamiento
+
+
+y no las consultas sobre programación
 
 
 ![issues](http://octaviovillegas.github.io/CursoIngresoJS/img/issues.png)
