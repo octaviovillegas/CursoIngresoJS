@@ -153,7 +153,7 @@ function mostrarImporteDeUnViaje()
 
 -----
 ## Cuestionario 
-[Cuestionario entrada y salida de datos](https://forms.gle/QY8L3362sKLCE5kx8)
+[Cuestionario entrada y salida de datos](https://forms.gle/QY8L3362sKLCE5kx8):point_left:
 
 
 **A tener en cuenta**
