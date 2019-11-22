@@ -121,7 +121,7 @@ se debe descargar el .ZIP
 ## Ejemplo 
 
 
-```[JavaScript]
+```javascript
 function mostrarImporteDeUnViaje()
 {
    //definición de variables
