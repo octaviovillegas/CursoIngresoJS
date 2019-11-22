@@ -64,16 +64,16 @@ se debe descargar el .ZIP
  
 * Debo entrar en la issues **
 
->Este espacio de las "ISSUES" es para solucionar temas Como
+![issues](http://octaviovillegas.github.io/CursoIngresoJS/img/issues.png)
+
+>Este espacio de las "ISSUES" es para solucionar temas Como:
 >* funcionales de la WEB.
 >* consultas sobre enunciados
 >* textos con errores que imposibiliten el funcionamiento
+ 
+:no_entry_sign:*las consultas que **No se responden**, son las consultas sobre los algoritmos de programación*
 
-*las que**No se resonden**, son las consultas sobre programación*
 
-
-
-![issues](http://octaviovillegas.github.io/CursoIngresoJS/img/issues.png)
 
 
 
