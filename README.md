@@ -27,7 +27,7 @@ ejercitación y TP para rendir el examen de ingreso
  
 
 
-> 1 . crear una cuenta en GitHub (Lo mas recomendable).
+> **1 . Crear una cuenta en GitHub (Lo mas recomendable).**
 
 >Hacer FORK del repositorio.
 
@@ -35,7 +35,7 @@ ejercitación y TP para rendir el examen de ingreso
 
  
 
-> 2 . Descargar el ZIP
+>** 2 . Descargar el ZIP**
 
 >Tengas o no cuenta en GitHub.
 se debe descargar el .ZIP
@@ -44,14 +44,34 @@ se debe descargar el .ZIP
 ![principal](http://octaviovillegas.github.io/CursoIngresoJS/img/bajarzip.gif)
 
 
+>** 3. utilizar un editor de texto liviano y de software libre**
+
+>Se puede utilizar el que quieran, si no conocen ninguno, aca le paso el link de uno liviano , portable multiplataforma y de software libre.
+
+
+>[SublimeText](https://www.sublimetext.com/3)
+
+>** 4. Mostar el curso de ingreso en el navegador de internet**
+
+>Despúes de descomprimir la carpeta, ingresamos, tomamos el archivo index.html y lo abrimos/lanzamos en el navegador.
+
+
+
+
+# ¿Que debo hacer para proponer mejoras o hacer consultas sobre errores ?
+ 
+> **Debo entrar en la issues **
+
+
+![issues](http://octaviovillegas.github.io/CursoIngresoJS/img/issues.png)
 
 
 
 
 
 -----
-
 # Ingreso a la Web 
+-----
 **Menu Principal**
 > Este menu te lleva por cada tema explorado en este cusro de ingreso.
 
@@ -63,12 +83,18 @@ se debe descargar el .ZIP
 -----
 # Contenidos 
 
+
+
+
+-----
+
+
 **Entrada y salida de datos**
 
 **Objetivos**
 * Interactuar con el usuario.
 * Mostrar información acorde a lo pedido.
-* Tomar datos como cadena de caracteres y trasnformarlos a número.
+* Tomar datos como cadena de caracteres y transformarlos a número.
 * Manejo de porcentajes dinamicos sobre valores dinamicos.
 
 **Ejercicios del TP**
@@ -79,10 +105,12 @@ se debe descargar el .ZIP
 [PDF de los TPs](http://octaviovillegas.github.io/CursoIngresoJS/Guia%20de%20TPs%20curso%20de%20ingreso.pdf)
 
 
+![principal](http://octaviovillegas.github.io/CursoIngresoJS/img/cjsentreadasalida.png)
 
 
 
-**uso**
+
+**Ejemplo**
 ---
 
 ```
