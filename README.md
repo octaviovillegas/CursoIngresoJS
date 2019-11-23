@@ -8,7 +8,7 @@ ejercitación y TP para rendir el examen de ingreso
 
 [Sitio WEB](http://octaviovillegas.github.io/CursoIngresoJS/index.html)
 
-<a href="http://octaviovillegas.github.io/CursoIngresoJS/index.html" target="_blank">Sitio WEB</a>
+<a href="http://octaviovillegas.github.io/CursoIngresoJS/index.html" target="_blank" rel="external" >Sitio WEB</a>
 
 ![QR](http://octaviovillegas.github.io/CursoIngresoJS/img/qrInicio.png)
 
