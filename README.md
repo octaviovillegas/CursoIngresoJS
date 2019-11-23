@@ -46,14 +46,14 @@ se debe descargar el .ZIP
 ![principal](http://octaviovillegas.github.io/CursoIngresoJS/img/bajarzip.gif)
 
 
-* :three: . Utilizar un editor de texto liviano y de software libre******
+* :three: . Utilizar un editor de texto liviano y de software libre.
 
 >Se puede utilizar el que quieran, si no conocen ninguno, aca le paso el link de uno liviano , portable multiplataforma y de software libre.
 
 
 >[SublimeText](https://www.sublimetext.com/3)
 
-* :four: . Mostrar el curso de ingreso en el navegador de internet**
+* :four: . Mostrar el curso de ingreso en el navegador de internet.
 
 >Después de descomprimir la carpeta, ingresamos, tomamos el archivo index.html y lo abrimos/lanzamos en el navegador.
 
