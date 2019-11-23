@@ -6,7 +6,7 @@ ejercitación y TP para rendir el examen de ingreso
 # **UTNFRA**
 ## **Técnico superior en programación**
 
-[Pagina en la WEB](http://octaviovillegas.github.io/CursoIngresoJS/index.html)
+[Pagina en la WEB](http://octaviovillegas.github.io/CursoIngresoJS/index.html" target="_blank )
 
 
 ![QR](http://octaviovillegas.github.io/CursoIngresoJS/img/qrInicio.png)
