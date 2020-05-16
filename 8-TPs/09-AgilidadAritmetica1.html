@@ -10,21 +10,21 @@
 		<!--final de Estilos-->
 
 		<!--Lógica-Programación-->
-		<script type="text/javascript" src="jsPalindromo.js"></script>
+		<script type="text/javascript" src="jsAgilidadAritmetica1.js"></script>
         <!--Final de Lógica-Programación -->
 		
-		
-			
+
+				
 <link rel="icon" type="image/x-icon" href="../favicon.ico">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	</head>
-	<body>
+	<body onload="comenzar()">
 
 
 <div class=" animated bounceIn header">
     
 
-     <center><h5>TP <strong> Ejercicio 14</strong> </h5></center> 
+     <center><h5>TP <strong> Ejercicio 9</strong> </h5></center> 
    <a  class="MiBotonUTNnav" onclick="location.href='index.html'" ><i class="far fa-hand-point-left"></i>Men&uacute; ejercicios</a> 
 
 </div>
@@ -35,35 +35,25 @@
   </div>
 
   <div class="col-6 col-s-9">
-  	<form id="FormIngreso" class=" animated bounceInLeft" class=" animated bounceInLeft"class=" animated bounceInLeft">
-	   <h1>Que es un palindromo</h1>
-	 			
-	 				<input type="text" placeholder="Ingrese frase o palabra" id="palabra">
-				<br>
-				
-
-
-			<a   class="MiBotonUTNnav" onclick="verificarPalindromo()" >Ingrese frase o palabra</a>
-			<br><br>
-		
-
-
+  		<form class=" animated bounceInLeft FormIngreso">
+	   <h1>Agilidad aritmética 1.0</h1>
+	 		<input type="text" readonly id="PrimerNumero" placeholder="Primer número">
+			<input type="text" readonly id="Operador"  placeholder="Operador matemático" >
+			<input type="text" readonly id="SegundoNumero"  placeholder="Segundo número">
+			<input type="text"  id="Respuesta"  placeholder="Tu respuesta">
+				<center>
+					<img src="imagenes/interrogacion.jpg" >
+				</center>
+				  	<a  class="MiBotonUTNnav" onclick="Responder()" >Verificar resultado</a>
 	 </form>	
   </div>
 
   <div class="col-3 col-s-12">
     <div class="aside animated bounceInUp">
     		<h2>Enunciado:</h2>
-					<h3>
-				  		Un palíndromo (del griego palin dromein, volver a ir atrás)
-				  	<br>	Es una palabra, número o frase que se lee igual adelante que atrás.
-				  	<br>Si se trata de un numeral, usualmente en notación indoarábiga, se llama capicúa. 
-
-					<br>	debemos poder identificar las frases numeros o palabras que son palindromos
-
-					<br> 1°: De la cadena original , buscamos los espacios y los eliminamos.
-					<br> 2°: La palabra original ,le invertimos el orden de las letras
-					<br> 3°: Comparamos las dos cadenas y si son iguales , es un palindromo.
+				<h3>
+						Debemos mostrar dos números Random  del 1 al 10 y una de las cuatro operaciones básicas (suma, resta, división o multiplicación) para realizar entre estos dos números, estas operaciones también serán Random. En el cuadro de texto resultado el jugador debe ingresar el resultado de la operación y presionar el botón  Aceptar.
+						se debe informar si el resultado es el correcto o no.
 
 
 				</h3>

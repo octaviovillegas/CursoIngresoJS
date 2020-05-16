@@ -24,7 +24,7 @@ function verificarPalindromo ()
 
 
 
-	palabraIngresada=palabra.value;
+	palabraIngresada=txtIdPalabra.value;
 	//console.log(palabra.legth);
 
 	palabraSinEspacios="";
@@ -33,9 +33,9 @@ function verificarPalindromo ()
 	for(i=0;i<palabraIngresada.length;i++)
 	{
 		//console.log(palabraIngresada[i]);
-		if (palabraIngresada[i]==" ") 
+		if (palabraIngresada[i]==" ") //(palabraIngresada[i] es cada letra por separado
 		{
-			continue;
+			continue;//esto permite saltear las siguentes lineas si encuentra " "
 		}
 		palabraSinEspacios=palabraSinEspacios+palabraIngresada[i];
 	}
@@ -46,6 +46,7 @@ function verificarPalindromo ()
 		palabraInvertida=palabraSinEspacios[i]+palabraInvertida;
 	}
 
+	txtIdPalabraInvertida.value=palabraInvertida;
 	if(palabraInvertida==palabraSinEspacios)
 	{
 		alert("es palindromo");

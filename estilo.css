@@ -238,7 +238,7 @@ left:0px;
   -webkit-transition:opacity 1s;
 }
 
-#FormIngreso {
+.FormIngreso {
   
  background-color: #33b5e5;
   padding:6% 4%;
@@ -308,6 +308,16 @@ select{
   transition:background .3s;
   -webkit-transition:background .3s;
 }
+.MiBotonUTNJuegoSecuencia {
+  
+ 
+  width:20% !important;
+ font-size: 1em;
+ font-weight: bold;
+  color:black !important;;
+ 
+}
+
 .MiBotonUTNMenu {
   display:block;
   /*text-transform: capitalize;*/

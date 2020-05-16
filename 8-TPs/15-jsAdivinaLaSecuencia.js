@@ -1,0 +1,70 @@
+var secuenciaSecretaDeColores=["Azul","Amarillo","Rojo","Verde"];
+var secuenciaIngresada=new Array("vacio","vacio","vacio","vacio");
+var contadorDeIntentos=0;
+function Comenzar()
+{
+
+}
+
+function Responder(parametroColor) 
+{
+	var i;
+	for(i=0;i<4;i++)
+	{
+		if(secuenciaIngresada[i]=="vacio")
+		{
+			secuenciaIngresada[i]=parametroColor;
+			console.info("colores ingresados",secuenciaIngresada);
+			break;
+		}
+	}
+
+	
+}
+
+function Verificar()
+{
+	var mensaje;
+	var aciertosConseguidos=0;
+	contadorDeIntentos++;
+
+	for(i=0;i<4;i++)
+	{
+		if(secuenciaIngresada[i]==secuenciaSecretaDeColores[i])
+		{
+			aciertosConseguidos++;
+		}
+	}
+	if(aciertosConseguidos==4)
+	{
+		mensaje="  excelente !!!";
+	}else
+	{
+		mensaje=" ..Correctas: "+aciertosConseguidos;
+		if(contadorDeIntentos==4)
+		{
+			alert("Casi lo logras... mas suerte la proxima ! ! !");
+			alert(secuenciaSecretaDeColores);
+		}
+	}
+
+	
+	switch(contadorDeIntentos)
+	{
+		case 1:
+			txtIdPrimerIntento.value=secuenciaIngresada+" " +mensaje;
+		break;
+		case 2:
+			txtIdSegundoIntento.value=secuenciaIngresada+" " +mensaje;
+		break;
+		case 3:
+			txtIdTercerIntento.value=secuenciaIngresada+" " +mensaje;
+		break;
+		case 4:
+			txtIdCuartoIntento.value=secuenciaIngresada+" " +mensaje;
+		break;
+	}
+
+	
+	secuenciaIngresada=new Array("vacio","vacio","vacio","vacio");
+}
