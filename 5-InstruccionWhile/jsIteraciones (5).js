@@ -1,10 +1,11 @@
+/*
+Al presionar el botón pedir un sexo
+'f' para femenino, 'm' para masculino.*/
 function mostrar()
 {
-
-var sexo = prompt("ingrese f ó m .");
-
+	var sexoIngresado = prompt("ingrese f ó m .");
 
 
-document.getElementById('Sexo').value=sexo;
 
+	txtIdSexo.value=sexoIngresado;
 }//FIN DE LA FUNCIÓN
