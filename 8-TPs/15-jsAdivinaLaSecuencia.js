@@ -3,7 +3,8 @@ var secuenciaIngresada=new Array("vacio","vacio","vacio","vacio");
 var contadorDeIntentos=0;
 function Comenzar()
 {
-
+	 //en esta funcion deberiamos generar una secuencia random 
+	 //de los cuatro colores sin repetir colores
 }
 
 function Responder(parametroColor) 
