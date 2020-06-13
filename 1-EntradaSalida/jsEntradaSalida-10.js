@@ -5,5 +5,5 @@ mostrar el importe con un Descuento del 25 %
 en el cuadro de texto "RESULTADO"*/
 function mostrarAumento()
 {
-	
+	alert("ok");
 }

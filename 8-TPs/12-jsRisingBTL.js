@@ -9,5 +9,11 @@ F.	Nacionalidad, “A” para argentinos, “E” para extranjeros, “N” para
  */
 function ComenzarIngreso () 
 {
- 
+ 	//definicion de variables
+ 	var edadIngresada;
+ 	var sexoIngresado;
+ 	var estadoCivilIngresado;
+
+
+
 }
