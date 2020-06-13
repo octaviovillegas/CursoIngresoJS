@@ -1,9 +1,8 @@
 function mostrar()
 {
-//tomo la edad  
-var laHora = document.getElementById('hora').value;
-
-//alert (laHora);
+	//tomo la hora
+	var horaDelDia =txtIdHora.value;
+	alert(horaDelDia);
 	
 	
 

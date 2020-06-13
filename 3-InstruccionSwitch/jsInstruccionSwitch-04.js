@@ -1,9 +1,8 @@
 function mostrar()
 {
-//tomo la edad  
-var mesDelAño = document.getElementById('mes').value;
-
-//alert (mesDelAño);
+	//tomo el mes
+	var mesDelAño =txtIdMes.value;
+	alert(mesDelAño);
 	
 	
 
