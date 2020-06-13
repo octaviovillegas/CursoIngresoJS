@@ -1,7 +1,6 @@
 function mostrar()
 {
-//tomo la edad  
-
-
+	//tomo la edad  
+	alert("ok");
 
 }//FIN DE LA FUNCIÓN
