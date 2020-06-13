@@ -1,6 +1,6 @@
 function mostrar()
 {
-
+	alert("ok");
 
 
 
