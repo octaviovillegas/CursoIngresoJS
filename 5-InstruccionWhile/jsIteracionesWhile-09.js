@@ -14,6 +14,7 @@ function mostrar()
 	while(respuesta=="si")
 	{
 		
+		respuesta=prompt("desea continuar?");
 	}
 	txtIdMaximo.value=numeroMaximo;
 	txtIdMinimmo.value=numeroMinimo;

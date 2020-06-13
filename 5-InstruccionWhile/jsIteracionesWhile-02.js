@@ -5,6 +5,6 @@ function mostrar()
 {
 	var contador;
 	contador=0; 
-	
+	alert('iteración while');
 
 }//FIN DE LA FUNCIÓN

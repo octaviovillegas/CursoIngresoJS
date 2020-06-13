@@ -3,7 +3,8 @@ Al presionar el botón pedir un sexo
 'f' para femenino, 'm' para masculino.*/
 function mostrar()
 {
-	var sexoIngresado = prompt("ingrese f ó m .");
+	var sexoIngresado;
+	sexoIngresado = prompt("ingrese f ó m .");
 
 
 
