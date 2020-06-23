@@ -1,10 +1,12 @@
-var secuenciaSecretaDeColores=["Azul","Amarillo","Rojo","Verde"];
+var secuenciaSecretaDeColores;
 var secuenciaIngresada=new Array("vacio","vacio","vacio","vacio");
 var contadorDeIntentos=0;
 function Comenzar()
 {
 	 //en esta funcion deberiamos generar una secuencia random 
 	 //de los cuatro colores sin repetir colores
+	 secuenciaSecretaDeColores=["Amarillo","Rojo","Azul","Verde"];
+	 console.info("colores cargados",secuenciaSecretaDeColores);
 }
 
 function Responder(parametroColor) 
