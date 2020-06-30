@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Curso Ingreso UTN FRA</title>
+
+		<!--Estilos-->
+		<link rel="stylesheet" type="text/css" href="../estilo.css">
+		<link rel="stylesheet" type="text/css" href="../animacion.css">
+		<!--final de Estilos-->
+
+		<!--Lógica-Programación-->
+		<script type="text/javascript" src="15-jsAdivinaLaSecuencia.js"></script>
+        <!--Final de Lógica-Programación -->
+		
+		
+			
+<link rel="icon" type="image/x-icon" href="../favicon.ico">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+	<body onload="Comenzar()"">
+
+
+<div class=" animated bounceIn header">
+    
+
+     <center><h5>TP <strong> Ejercicio 15</strong> </h5></center> 
+   <a  class="MiBotonUTNnav" onclick="location.href='index.html'" ><i class="far fa-hand-point-left"></i>Men&uacute; ejercicios</a> 
+
+</div>
+
+<div class="row">
+  <div class="col-3 col-s-3 menu">
+   
+  </div>
+
+  <div class="col-6 col-s-9">
+  		<form class=" animated bounceInLeft FormIngreso">
+	   <h1>Adivina la secuencia</h1>
+	 			
+	 	<div class="btn-group">
+			<input type="button" value="Azul"  style="background:blue;" class="MiBotonUTNJuegoSecuencia MiBotonUTNJuego animated shake  swing " onclick="Responder('Azul')" >
+			<input type="button" value="Amarillo"  style="background:yellow;" class="MiBotonUTNJuegoSecuencia MiBotonUTNJuego animated shake  swing " onclick="Responder('Amarillo')" >
+			<input type="button" value="Rojo"  style="background:red;" class="MiBotonUTNJuegoSecuencia MiBotonUTNJuego animated shake  swing " onclick="Responder('Rojo')" >
+			<input type="button" value="Verde"  style="background:green;" class="MiBotonUTNJuegoSecuencia MiBotonUTNJuego animated shake  swing " onclick="Responder('Verde')" >
+			<br>
+				<br>
+
+					<br>
+			<input type="text"  placeholder="primer intento" id="txtIdPrimerIntento">
+				<br>
+			<input type="text"  placeholder="segundo intento" id="txtIdSegundoIntento">
+				<br>
+			<input type="text"  placeholder="terce intento" id="txtIdTercerIntento">
+				<br>
+			<input type="text"  placeholder="cuarto intento" id="txtIdCuartoIntento">
+				<br>
+			<a  class="MiBotonUTNnav" onclick="Verificar()" >Verificar</a>
+		</div>		
+		
+
+
+	 </form>	
+  </div>
+
+  <div class="col-3 col-s-12">
+    <div class="aside animated bounceInUp">
+    		<h2>Enunciado:</h2>
+					<h3>
+				  	Adivina la secuencia
+				  	<br>	ahi una secuencia oculta que debes adivinar 
+				  	<br>Solo tienes tres intentos
+					
+
+
+				</h3>
+			
+			
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  
+  	<!--a class="MiBotonUTNnav" onclick="location.href='../index.html'" ><i class="fas fa-bars"></i>Men&uacute; Principal</a-->	
+  	<p>Curso de ingreso UTN FRA</p>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,5 @@
+function mostrar()
+{
+
+	alert("ok");
+}
