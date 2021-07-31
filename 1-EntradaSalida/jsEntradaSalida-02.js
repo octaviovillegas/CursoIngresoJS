@@ -8,7 +8,7 @@ function mostrar() {
 
 
 
-	alert("Su nombre es " + dato);	
+	alert("Su nombre es " + dato);
 
 
 }
