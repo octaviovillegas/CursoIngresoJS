@@ -51,6 +51,8 @@ function mostrar() {
             temperatura = parseInt(prompt("Temperaturas invalidas. Compruebe su temperatura nuevamente."))
         }
 
+
+        
         if (flag == 1 || maxTemp < temperatura) {
             nombreMaxTemp = nombre
             maxTemp = temperatura
