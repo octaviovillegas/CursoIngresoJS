@@ -1,11 +1,14 @@
 function mostrar()
 {
-	//tomo la hora
-	var horaDelDia =txtIdHora.value;
-	alert(horaDelDia);
-	
-	
+	let hora = parseInt(document.getElementById("txtIdHora").value);
+	if (hora >= 7 && hora <= 11){
+	switch(hora){
+		case hora:
+			alert("Es de Mañana");
+			break;
+	}
+	}
 
 
 
-}//FIN DE LA FUNCIÓN
+}
