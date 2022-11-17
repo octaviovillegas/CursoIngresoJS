@@ -4,6 +4,11 @@ transformarlos a enteros (parseInt) y Sumarlos.
 mostrar el resulto por medio de "ALERT"*/
 function sumar()
 {
-	alert("ok");
+	nUno=txtIdNumeroUno.value
+	nDos=txtIdNumeroDos.value
+
+	result = parseInt(nUno)+parseInt(nDos);
+
+	alert('El resultado es '+ result);
 }
 

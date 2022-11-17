@@ -5,6 +5,9 @@ mostrar el importe con un aumento del 10 %
 en el cuadro de texto "RESULTADO".*/
 function mostrarAumento()
 {
+	sueldo=txtIdSueldo.value
 
-	alert("ok");
+	result = parseInt(sueldo) + parseInt(sueldo * 10)/100;
+
+	txtIdResultado.value=result;
 }
