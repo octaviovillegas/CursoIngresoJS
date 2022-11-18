@@ -1,6 +1,12 @@
 function mostrar()
 {
-	//tomo la edad  
-	alert("ok");
+	edad=txtIdEdad.value;
 
-}//FIN DE LA FUNCIÓN
+	//numero de 1 digito, sale sos mayor
+	//numero de 3 digitos sale sos menor
+	if (edad >= '18'){
+		alert("sos mayor");
+	} else{
+		alert("sos menor");
+	}
+}
