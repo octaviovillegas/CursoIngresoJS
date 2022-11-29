@@ -1,8 +1,9 @@
 function mostrar()
 {
-	//tomo la edad  
-	alert("ok");
-	
+	edad=txtIdEdad.value;
+	estado=estadoCivil.value;
 
-
-}//FIN DE LA FUNCIÓN
+	if (edad<='17'&&estado!='Soltero'){
+		alert('⛔️ Es muy pequeño para NO ser soltero');
+	}
+}
