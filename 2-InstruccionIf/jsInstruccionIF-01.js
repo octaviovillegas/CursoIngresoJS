@@ -5,7 +5,5 @@ function mostrar()
 
 	if (txtIdEdad.value === '15'){
 		alert("niña bonita");
-	} else {
-		alert("niña fea");
 	}
 }
