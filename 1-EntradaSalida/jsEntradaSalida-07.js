@@ -8,9 +8,9 @@ function sumar()
 	nUno=txtIdNumeroUno.value
 	nDos=txtIdNumeroDos.value
 
-	result = parseInt(nUno)+parseInt(nDos);
+	result=parseInt(nUno)+parseInt(nDos);
 
-	alert('El resultado es '+ result);	
+	alert('El resultado es '+result);	
 }
 
 function restar()
@@ -18,9 +18,9 @@ function restar()
 	nUno=txtIdNumeroUno.value
 	nDos=txtIdNumeroDos.value
 
-	result = parseInt(nUno)-parseInt(nDos);
+	result=parseInt(nUno)-parseInt(nDos);
 
-	alert('El resultado es '+ result);
+	alert('El resultado es '+result);
 }
 
 function multiplicar()
@@ -28,9 +28,9 @@ function multiplicar()
 	nUno=txtIdNumeroUno.value
 	nDos=txtIdNumeroDos.value
 
-	result = parseInt(nUno)*parseInt(nDos);
+	result=parseInt(nUno)*parseInt(nDos);
 
-	alert('El resultado es '+ result);
+	alert('El resultado es '+result);
 }
 
 function dividir()
@@ -38,7 +38,41 @@ function dividir()
 	nUno=txtIdNumeroUno.value
 	nDos=txtIdNumeroDos.value
 
-	result = parseInt(nUno)/parseInt(nDos);
+	result=parseInt(nUno)/parseInt(nDos);
 
-	alert('El resultado es '+ result);
+	alert('El resultado es '+result);
 }
+
+/*callback
+function mostrar(valor,desc)
+{
+	alert(desc + valor);
+}
+function cuenta(opera,callback)
+{
+	console.log(opera);
+	var descrip = "";
+	nUno=txtIdNumeroUno.value;
+	nDos=txtIdNumeroDos.value;
+	if(opera==1)
+	{
+		var sum=parseInt(nUno)+parseInt(nDos);
+        descrip = "El resultado es ";
+	}
+	if(opera==2)
+	{
+		var sum=parseInt(nUno)-parseInt(nDos);
+		descrip = "El resultado es ";
+	}
+	if(opera==3)
+	{
+		var sum=parseInt(nUno)*parseInt(nDos);
+		descrip = "El resultado es ";
+	}
+	if(opera==4)
+	{
+		var sum=parseInt(nUno)/parseInt(nDos);
+		descrip = "El resultado es ";
+	}
+	callback(sum,descrip);
+}*/

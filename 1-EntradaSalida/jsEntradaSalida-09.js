@@ -7,7 +7,7 @@ function mostrarAumento()
 {
 	sueldo=txtIdSueldo.value
 
-	result = parseInt(sueldo) + parseInt(sueldo * 10)/100;
+	result=parseInt(sueldo)+parseInt(sueldo*10)/100;
 
 	txtIdResultado.value=result;
 }

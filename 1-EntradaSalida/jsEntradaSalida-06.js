@@ -7,8 +7,8 @@ function sumar()
 	nUno=txtIdNumeroUno.value
 	nDos=txtIdNumeroDos.value
 
-	result = parseInt(nUno)+parseInt(nDos);
+	result=parseInt(nUno)+parseInt(nDos);
 
-	alert('El resultado es '+ result);
+	alert('El resultado es '+result);
 }
 
