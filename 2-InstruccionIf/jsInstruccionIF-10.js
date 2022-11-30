@@ -1,6 +1,15 @@
 function mostrar()
 {
-	//Genero el número RANDOM entre 1 y 10 
-	alert("ok");
+	var examen;
 
-}//FIN DE LA FUNCIÓN
+	examen=Math.floor(Math.random()*11);
+	console.log(examen);
+
+	if (examen<='3'){
+		alert('Vamos, la proxima se puede');
+	} else if (examen>='4'&&examen<='8'){
+		alert('APROBÓ');
+	} else{
+		alert('EXCELENTE');
+	}
+}
