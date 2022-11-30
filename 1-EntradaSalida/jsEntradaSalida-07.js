@@ -75,4 +75,8 @@ function cuenta(opera,callback)
 		descrip = "El resultado es ";
 	}
 	callback(sum,descrip);
+<<<<<<< HEAD
 }*/
+=======
+}*/
+>>>>>>> a615f67fb8a4d8afd5bb652701a13d2bf6bdea20
