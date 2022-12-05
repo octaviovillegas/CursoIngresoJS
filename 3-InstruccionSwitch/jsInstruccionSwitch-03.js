@@ -1,10 +1,12 @@
 function mostrar()
 {
-	//tomo el mes
-	var mesDelAño =txtIdMes.value;
-	alert(mesDelAño);
-	
-	
+	var mes=txtIdMes.value;
 
-
-}//FIN DE LA FUNCIÓN
+	switch (mes){
+		default:
+			alert('Este mes tiene 30 o más días');
+			break;
+		case 'Febrero':
+			alert('Este mes no tiene más de 29 días.');
+	}
+}

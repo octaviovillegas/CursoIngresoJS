@@ -6,10 +6,10 @@ function mostrar()
 	console.log(examen);
 
 	if (examen<='3'){
-		alert('Vamos, la proxima se puede');
+		alert('⛔️ Vamos, la proxima se puede');
 	} else if (examen>='4'&&examen<='8'){
-		alert('APROBÓ');
+		alert('✅ APROBÓ');
 	} else{
-		alert('EXCELENTE');
+		alert('✅ EXCELENTE');
 	}
 }
