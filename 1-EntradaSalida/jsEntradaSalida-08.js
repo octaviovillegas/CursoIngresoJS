@@ -10,5 +10,5 @@ function SacarResto()
 
 	result=parseInt(dividendo)%parseInt(divisor);
 
-	alert('El resto es '+result);
+	alert(`El resto es ${result}`);
 }

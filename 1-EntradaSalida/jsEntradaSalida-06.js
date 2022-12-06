@@ -9,6 +9,6 @@ function sumar()
 
 	result=parseInt(nUno)+parseInt(nDos);
 
-	alert('El resultado es '+result);
+	alert(`El resultado es ${result}`);
 }
 

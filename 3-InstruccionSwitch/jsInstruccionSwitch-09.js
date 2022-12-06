@@ -3,7 +3,7 @@ function mostrar()
 	var estacion=txtIdEstacion.value;
 	var destino=txtIdDestino.value;
 	var base=15000
-        var pre20=(base*20)/100;
+    var pre20=(base*20)/100;
 	var pre10=(base*10)/100;
 
 	switch(estacion+"|"+destino){

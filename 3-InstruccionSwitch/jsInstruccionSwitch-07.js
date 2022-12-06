@@ -7,15 +7,15 @@ function mostrar()
 			void(0);
 		break;
 		case 'Bariloche':
-			alert(destino+' se encuentra al Oeste');
+			alert(`${destino} se encuentra al Oeste`);
 		break;
 		case 'Cataratas':
-			alert(destino+' se encuentra al Norte')
+			alert(`${destino} se encuentra al Norte`)
 		break;
 		case 'Mar del plata':
-			alert(destino+' se encuentra al Este');
+			alert(`${destino} se encuentra al Este`);
 		break;
 		case 'Ushuaia':
-			alert(destino+' se encuentra al Sur');
+			alert(`${destino} se encuentra al Sur`);
 	}
 }

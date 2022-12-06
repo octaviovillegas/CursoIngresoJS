@@ -8,11 +8,11 @@ function mostrar()
 		break;
 		case 'Bariloche':
 		case 'Ushuaia':
-			alert('🥶 En '+destino+' hace frio.');
+			alert(`🥶 En ${destino} hace frio.`);
 		break;
 		case 'Cataratas':
 		case 'Mar del plata':
-			alert('🔥 En '+destino+' hace calor.');
+			alert(`🔥 En ${destino} hace calor.`);
 		break;
 	}
 }

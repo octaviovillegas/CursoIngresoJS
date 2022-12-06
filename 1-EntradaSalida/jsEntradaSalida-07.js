@@ -10,7 +10,7 @@ function sumar()
 
 	result=parseInt(nUno)+parseInt(nDos);
 
-	alert('El resultado es '+result);	
+	alert(`El resultado es ${result}`);	
 }
 
 function restar()
@@ -20,7 +20,7 @@ function restar()
 
 	result=parseInt(nUno)-parseInt(nDos);
 
-	alert('El resultado es '+result);
+	alert(`El resultado es ${result}`);
 }
 
 function multiplicar()
@@ -30,7 +30,7 @@ function multiplicar()
 
 	result=parseInt(nUno)*parseInt(nDos);
 
-	alert('El resultado es '+result);
+	alert(`El resultado es ${result}`);
 }
 
 function dividir()
@@ -40,7 +40,7 @@ function dividir()
 
 	result=parseInt(nUno)/parseInt(nDos);
 
-	alert('El resultado es '+result);
+	alert(`El resultado es ${result}`);
 }
 
 /*callback
@@ -75,8 +75,4 @@ function cuenta(opera,callback)
 		descrip = "El resultado es ";
 	}
 	callback(sum,descrip);
-<<<<<<< HEAD
 }*/
-=======
-}*/
->>>>>>> a615f67fb8a4d8afd5bb652701a13d2bf6bdea20
