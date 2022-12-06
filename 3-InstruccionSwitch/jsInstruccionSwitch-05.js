@@ -18,9 +18,10 @@ function mostrar()
 /*function mostrar()
 {
 	var hora=txtIdHora.value;
+	var mañana=('7'||'8'||'9'||'10'||'11');
 
 	switch (hora){
-		case hora='7'&&'11':
+		case hora=mañana:
 			alert('✅ Es de mañana')
 			break;
 		default:
