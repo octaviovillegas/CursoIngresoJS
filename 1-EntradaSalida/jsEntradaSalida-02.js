@@ -6,8 +6,8 @@ function mostrar()
 {
 	var nombre;
 	
-	nombre =prompt('Cual es tu nombre?')
+	nombre=prompt('¿Cual es tu nombre?')
 
-	alert("Hola " + nombre + "!");
+	alert(`Hola ${nombre}!`);
 }
 
