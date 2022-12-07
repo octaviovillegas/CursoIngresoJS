@@ -2,16 +2,14 @@ function mostrar()
 {
 	var destino=txtIdDestino.value;
 
-	switch(destino){
+	switch(true){
 		default:
 			void(0);
 		break;
-		case 'Bariloche':
-		case 'Ushuaia':
+		case ["Bariloche", "Ushuaia"].includes(destino):
 			alert(`🥶 En ${destino} hace frio.`);
 		break;
-		case 'Cataratas':
-		case 'Mar del plata':
+		case ["Cataratas", "Mar del plata"].includes(destino):
 			alert(`🔥 En ${destino} hace calor.`);
 		break;
 	}
