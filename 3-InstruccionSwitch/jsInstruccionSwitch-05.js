@@ -1,4 +1,4 @@
-function mostrar()
+/*function mostrar()
 {
 	var hora=txtIdHora.value;
 
@@ -13,18 +13,17 @@ function mostrar()
 		default:
 			alert('⛔️ No es de mañana')
 	}
-}
+}*/
 
-/*function mostrar()
+function mostrar()
 {
 	var hora=txtIdHora.value;
-	var mañana=('7'||'8'||'9'||'10'||'11');
 
-	switch (hora){
-		case hora=mañana:
-			alert('✅ Es de mañana')
+	switch (true){
+		case ["7", "8", "9", "10", "11"].includes(hora): 
+			alert('✅ Es de mañana');
 			break;
 		default:
 			alert('⛔️ No es de mañana')
 	}
-}*/
+}

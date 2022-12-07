@@ -2,17 +2,14 @@ function mostrar()
 {
 	var mes=txtIdMes.value;
 
-	switch (mes){
+	switch (true){
 		default:
 			alert(`${mes} tiene 31 días.`);
 			break;
-		case 'Abril':
-		case 'Junio':
-		case 'Septiembre':
-		case 'Noviembre':
+		case ["Abril", "Junio", "Septiembre", "Noviembre"].includes(mes):
 			alert(`${mes} tiene 30 días.`);
 			break;
-		case 'Febrero':
+		case ["Febrero"].includes(mes):
 			alert(`${mes} tiene 28 días.`)
 	}
 }
