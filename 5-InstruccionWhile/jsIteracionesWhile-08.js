@@ -13,6 +13,7 @@ function mostrar()
 			negativo*=num;
 		}
 	}
+	
 	txtIdSuma.value=positivo;
 	txtIdProducto.value=negativo;
 }
