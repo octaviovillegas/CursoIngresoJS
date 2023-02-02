@@ -1,21 +1,17 @@
-/*
-Al presionar el botón pedir  números  hasta que el usuario quiera,
-mostrar el número máximo y el número mínimo ingresado.*/
 function mostrar()
-{	// declarar variables
-	var banderaDelPrimero;
-	var numeroIngresado;
-	var numeroMaximo;
-	var numeroMinimo;
-	var respuesta;
-	//iniciar variables
-	banderaDelPrimero="es el primero";
-	respuesta='si';
-	while(respuesta=="si")
-	{
-		
-		respuesta=prompt("desea continuar?");
+{
+	var num;
+	var nummax=Math.max();
+	var nummin=Math.min();
+
+	while(confirm('Quiere ingresar mas numeros?')){
+		num=parseInt(prompt(''));
+
+		if (num=nummax){
+
+		}
 	}
-	txtIdMaximo.value=numeroMaximo;
+
+	txtIdMaximo.value=nummax;
 	txtIdMinimmo.value=numeroMinimo;
-}//FIN DE LA FUNCIÓN
+}
