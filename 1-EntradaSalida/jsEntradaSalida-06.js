@@ -1,14 +1,11 @@
-/*
-Debemos lograr tomar Los numeros por ID ,
-transformarlos a enteros (parseInt) y Sumarlos.
-mostrar el resulto por medio de "ALERT"*/
+// Angel Farina.
+
 function sumar()
 {
-	nUno=txtIdNumeroUno.value
-	nDos=txtIdNumeroDos.value
+	let nUno=txtIdNumeroUno.value
+	let nDos=txtIdNumeroDos.value
 
-	result=parseInt(nUno)+parseInt(nDos);
+	let result=parseInt(nUno)+parseInt(nDos);
 
 	alert(`El resultado es ${result}`);
 }
-

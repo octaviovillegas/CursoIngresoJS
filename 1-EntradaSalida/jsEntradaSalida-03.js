@@ -1,14 +1,8 @@
-/*
-Debemos lograr tomar un dato por 'ID'
-y luego mostrarlo por 'Alert' al presionar el botón  'mostrar'*/
+// Angel Farina.
+
 function mostrar()
 {
-	var nombreIngresado;
+	let nombre=txtIdNombre.value;
 	
-	nombreIngresado=txtIdNombre.value;
-	
-	alert(nombreIngresado);
-
+	alert(nombre);
 }
-
-

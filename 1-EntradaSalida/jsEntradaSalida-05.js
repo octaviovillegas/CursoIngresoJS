@@ -1,11 +1,9 @@
-/*
-Debemos lograr tomar nombre y edad por ID y mostrarlos concatenados 
-ej.: "Usted se llama José y tiene 66 años" 	*/
+// Angel Farina.
+
 function mostrar()
 {	
-	nombre=txtIdNombre.value
-	edad=txtIdEdad.value
+	let nombre=txtIdNombre.value
+	let edad=txtIdEdad.value
 
 	alert(`Te llamas ${nombre} y tenes ${edad} años`);
 }
-
