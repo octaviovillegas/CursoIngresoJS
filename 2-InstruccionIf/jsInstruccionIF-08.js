@@ -1,5 +1,10 @@
+// Angel Farina.
+
 function mostrar()
 {
+	var edad;
+	var estado;
+	
 	edad=parseInt(txtIdEdad.value);
 	estado=estadoCivil.value;
 

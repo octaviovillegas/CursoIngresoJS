@@ -1,9 +1,14 @@
+// Angel Farina.
 
 function mostrar()
 {
-	var contador=0;
-	var acumulador=0;
-	var respuesta='si';
+	var contador;
+	var acumulador;
+	var respuesta;
+	
+	contador=0;
+	acumulador=0;
+	respuesta='si';
 
 	while (respuesta=='si'){
 		contador++;

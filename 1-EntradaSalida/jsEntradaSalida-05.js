@@ -2,8 +2,11 @@
 
 function mostrar()
 {	
-	let nombre=txtIdNombre.value
-	let edad=txtIdEdad.value
+	var nombre;
+	var edad;
+
+	nombre=txtIdNombre.value
+	edad=txtIdEdad.value
 
 	alert(`Te llamas ${nombre} y tenes ${edad} años`);
 }

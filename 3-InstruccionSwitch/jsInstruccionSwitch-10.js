@@ -1,7 +1,12 @@
+// Angel Farina.
+
 function mostrar()
 {
-	var estacion=txtIdEstacion.value;
-	var destino=txtIdDestino.value;
+	var estacion;
+	var destino;
+	
+	estacion=txtIdEstacion.value;
+	destino=txtIdDestino.value;
 
 	switch(estacion+"|"+destino){
 		default:

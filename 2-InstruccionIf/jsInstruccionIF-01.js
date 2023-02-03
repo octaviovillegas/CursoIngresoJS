@@ -1,9 +1,12 @@
+// Angel Farina.
+
 function mostrar()
 {
-	//var edad;
-	//var edad = txtIdEdad.value;
+	var edad;
 
-	if (txtIdEdad.value === '15'){
+	edad=txtIdEdad.value === '15'
+
+	if (edad){
 		alert('niña bonita');
 	}
 }

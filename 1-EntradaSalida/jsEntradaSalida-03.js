@@ -2,7 +2,9 @@
 
 function mostrar()
 {
-	let nombre=txtIdNombre.value;
+	var nombre;
+	
+	nombre=txtIdNombre.value;
 	
 	alert(nombre);
 }

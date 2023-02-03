@@ -2,5 +2,5 @@
 
 function mostrar()
 {
-	alert('Esto funciona de maravilla');
+	alert('Esto funciona de maravilla');	
 }

@@ -1,6 +1,10 @@
+// Angel Farina.
+
 function mostrar()
 {
-	var num=1;
+	var num;
+	
+	num=1;
 
 	while (num<=10){
 		alert(num);

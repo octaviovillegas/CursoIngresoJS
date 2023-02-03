@@ -2,10 +2,13 @@
 
 function SacarResto()
 {
-	let dividendo=txtIdNumeroDividendo.value
-	let divisor=txtIdNumeroDivisor.value
+	var dividendo;
+	var divisor;
+	var result;
 
-	let result=parseInt(dividendo)%parseInt(divisor);
+	dividendo=txtIdNumeroDividendo.value;
+	divisor=txtIdNumeroDivisor.value;
+	result=parseInt(dividendo)%parseInt(divisor);
 
 	alert(`El resto es ${result}`);
 }

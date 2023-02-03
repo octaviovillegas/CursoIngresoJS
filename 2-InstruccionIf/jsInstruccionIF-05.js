@@ -1,5 +1,9 @@
+// Angel Farina.
+
 function mostrar()
 {
+	var edad;
+	
 	edad=parseInt(txtIdEdad.value);
 
 	if (edad>='13'&&edad<=17){
@@ -7,11 +11,10 @@ function mostrar()
 	} else{
 		alert('no es adolescente');
 	}
-}
-/*{
-	edad=parseInt(txtIdEdad.value);
+
+	/*edad=parseInt(txtIdEdad.value);
 
 	if (!(edad>='13'&&edad<='17')){
 		alert('no es adolescente');
-	}
-}*/
+	}*/
+}

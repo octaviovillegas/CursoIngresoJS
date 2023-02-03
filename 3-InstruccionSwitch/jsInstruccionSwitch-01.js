@@ -1,6 +1,10 @@
+// Angel Farina.
+
 function mostrar()
 {
-	var mes=txtIdMes.value;
+	var mes;
+	
+	mes=txtIdMes.value;
 	
 	switch (mes){
 		default:

@@ -1,8 +1,13 @@
+// Angel Farina.
+
 function mostrar()
 {
 	var num;
-	var positivo=0;
-	var negativo=1;
+	var positivo;
+	var negativo;
+	
+	positivo=0;
+	negativo=1;
 
 	while (confirm('Quiere ingresar mas numeros?')){
 		num=parseInt(prompt(''));
