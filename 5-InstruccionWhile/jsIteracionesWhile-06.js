@@ -1,3 +1,5 @@
+// Angel Farina.
+
 function mostrar()
 {
 	var contador;

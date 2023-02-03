@@ -1,6 +1,10 @@
+// Angel Farina.
+
 function mostrar()
 {
-	var destino=txtIdDestino.value;
+	var destino;
+	
+	destino=txtIdDestino.value;
 
 	switch(true){
 		default:

@@ -2,9 +2,16 @@
 
 function mostrarAumento()
 {
-	let sueldo=txtIdSueldo.value
+	var sueldo;
+	var result;
+	var bis;
 
-	let result=parseInt(sueldo)+parseInt(sueldo*10)/100;
+	sueldo=txtIdSueldo.value;
+	//result=parseInt(sueldo)+parseInt(sueldo*10)/100;
+
+	//bis
+	bis=prompt("Ingrese el porcentaje a calcular")
+	result=parseInt(sueldo)+parseInt(sueldo*bis)/100;
 
 	txtIdResultado.value=result;
 }

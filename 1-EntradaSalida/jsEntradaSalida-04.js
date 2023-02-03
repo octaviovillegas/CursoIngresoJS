@@ -2,7 +2,7 @@
 
 function mostrar()
 {
-    let nombre;	
+    var nombre;	
 
 	nombre=prompt("Ingresa tu nombre");	
 		

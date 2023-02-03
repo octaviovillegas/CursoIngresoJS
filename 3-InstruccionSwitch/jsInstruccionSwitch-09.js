@@ -1,10 +1,18 @@
+// Angel Farina.
+
 function mostrar()
 {
-	var estacion=txtIdEstacion.value;
-	var destino=txtIdDestino.value;
-	var base=15000
-    var pre20=(base*20)/100;
-	var pre10=(base*10)/100;
+	var estacion
+	var destino
+	var base
+	var pre20
+	var pre10
+	
+	estacion=txtIdEstacion.value;
+	destino=txtIdDestino.value;
+	base=15000
+    pre20=(base*20)/100;
+	pre10=(base*10)/100;
 
 	switch(estacion+"|"+destino){
 		default:

@@ -1,8 +1,13 @@
+// Angel Farina.
+
 function mostrar()
 {
 	var num;
-	var nummax=Math.max();
-	var nummin=Math.min();
+	var nummax;
+	var nummin;
+	
+	nummax=Math.max();
+	nummin=Math.min();
 
 	while(confirm('Quiere ingresar mas numeros?')){
 		num=parseInt(prompt(''));
