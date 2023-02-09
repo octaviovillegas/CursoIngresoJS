@@ -3,18 +3,19 @@
 function mostrar()
 {
 	var edad;
+	var mensaje;
 	
 	edad=parseInt(txtIdEdad.value);
+	mensaje='no es adolescente'
 
-	if (edad>='13'&&edad<=17){
+	if (edad>12&&edad<18){
 		void(0);
 	} else{
-		alert('no es adolescente');
+		alert(mensaje);
 	}
 
-	/*edad=parseInt(txtIdEdad.value);
-
-	if (!(edad>='13'&&edad<='17')){
-		alert('no es adolescente');
+	/*
+	if (!(edad>=13&&edad<=17)){
+		alert(mensaje);
 	}*/
 }

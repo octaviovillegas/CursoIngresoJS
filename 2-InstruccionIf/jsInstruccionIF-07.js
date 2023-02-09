@@ -4,11 +4,13 @@ function mostrar()
 {
 	var edad;
 	var estado;
+	var mensaje;
 	
-	edad=txtIdEdad.value;
+	edad=parseInt(txtIdEdad.value);
 	estado=estadoCivil.value;
+	mensaje='⛔️ Es muy pequeño para NO ser soltero'
 
-	if (edad<='17'&&estado!='Soltero'){
-		alert('⛔️ Es muy pequeño para NO ser soltero');
+	if (edad<18&&estado!='Soltero'){
+		alert(mensaje);
 	}
 }

@@ -4,9 +4,11 @@ function mostrar()
 {
 	var edad;
 
-	edad=txtIdEdad.value === '15'
+	edad=parseInt(txtIdEdad.value);
 
-	if (edad){
+	if (edad === 15){
 		alert('niña bonita');
+	} else{
+		alert("niña fea");
 	}
 }
