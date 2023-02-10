@@ -12,25 +12,85 @@ en informar del impuesto con el siguiente mensaje: ”Usted pago X de IIBB.”, 
  */
 function CalcularPrecio () 
 {
-    var precio;
-    var cantidad;
-    var marca;
-    var precioFinal;
-    var porcentaje;
-    var iibb;
-    var mensaje;
+    var PRECIO_LAMPARAS;
+    var IMPUESTO_IIBB;
+    var EMPRESA;
+    var cantidadLamparas;
+    var descuentoAplicado;
+    var totalSinDescuento;
+    var totalConDescuento;
     
-    precio=35;
-    cantidad=parseInt(txtIdCantidad.value);
-    marca=Marca.value;
-    precioFinal=txtIdpreciopuento.value;
-    mensaje=`Usted pago ${iibb} de IIBB.`
 
-    if (cantidad > 5){
-        porcentaje = 50;
-    }else if(cantidad==5){
-        if(marca=="ArgentinaLuz"){
-            porcentaje = 40;
+    PRECIO_LAMPARAS = 35;
+    IMPUESTO_IIBB = 10;
+    descuentoAplicado = 0;
+    cantidadLamparas = txtIdCantidad.value;
+    EMPRESA = Marca.value;
+    
+
+    if(cantidadLamparas > 5)
+    {
+        descuentoAplicado = 50;
+    }
+    else
+    {
+        if(cantidadLamparas  == 5)
+        {
+            if(EMPRESA == "ArgentinaLuz")
+            {
+                descuentoAplicado = 40;
+            }
+            else
+            {
+                descuentoAplicado = 30;           
+            }
+        }
+        else
+        {
+            if(cantidadLamparas == 4)
+            {
+                if(EMPRESA == "ArgentinaLuz")
+                {
+                    descuentoAplicado = 25;
+                }
+                else
+                {
+                    if(EMPRESA == "FelipeLamparas")
+                    {
+                        descuentoAplicado == 25;
+                    }
+                    else
+                    {
+                        descuentoAplicado == 20;
+                    }
+                }
+            }
+            else
+            {
+                if(cantidadLamparas == 3)
+                {
+                    if(EMPRESA == "ArgentinaLuz")
+                    {
+                        descuentoAplicado = 15;
+                    }
+                    else
+                    {
+                        if(EMPRESA == "FelipeLamparas")
+                        {
+                            descuentoAplicado = 10;
+                        }
+                        else
+                        {
+                            descuentoAplicado = 5;
+                        }
+                    }
+                }
+            }
         }
     }
+
+    totalSinDescuento = cantidadLamparas*PRECIO_LAMPARAS;
+    totalConDescuento = 
+
+    if()
 }
