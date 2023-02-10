@@ -2,11 +2,11 @@
 
 function mostrar()
 {
-	var estacion
-	var destino
-	var base
-	var pre20
-	var pre10
+	var estacion;
+	var destino;
+	var base;
+	var pre20;
+	var pre10;
 	
 	estacion=txtIdEstacion.value;
 	destino=txtIdDestino.value;

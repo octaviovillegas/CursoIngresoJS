@@ -6,7 +6,7 @@ function mostrar()
 	
 	edad=parseInt(txtIdEdad.value);
 
-	if (edad >= '18'){
+	if (edad > 18){
 		alert('✅ es mayor');
 	} else{
 		alert('⛔️ es menor');
