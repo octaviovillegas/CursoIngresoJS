@@ -3,23 +3,25 @@
 function mostrar()
 {
 	var mes;
+	var mensaje;
 	
-	mes=txtIdMes.value;
+	mes = txtIdMes.value;
 	
 	switch (mes){
 		default:
-			alert('nada');
+			mensaje ='nada';
 			break;
 		case 'Enero':
-			alert("que comiences bien el año!!!.");
+			mensaje = 'que comiences bien el año!!!.';
 			break;
 		case 'Marzo':
-			alert('a clases!!!.');
+			mensaje = 'a clases!!!.';
 			break;
 		case 'Julio':
-			alert('se vienen las vacaciones!!!.');
+			mensaje ='se vienen las vacaciones!!!.';
 			break;
 		case 'Diciembre':
-			alert('felices fiestas!!!.');
+			mensaje ='felices fiestas!!!.';
 	}
+	alert(mensaje);
 }

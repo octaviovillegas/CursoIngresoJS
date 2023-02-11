@@ -3,17 +3,19 @@
 function mostrar()
 {
 	var mes;
+	var mensaje;
 	
-	mes=txtIdMes.value;
+	mes = txtIdMes.value;
 
 	switch (true){
 		default:
-			alert(`${mes} tiene 31 días.`);
+			mensaje = `${mes} tiene 31 días.`;
 			break;
 		case ["Abril", "Junio", "Septiembre", "Noviembre"].includes(mes):
-			alert(`${mes} tiene 30 días.`);
+			mensaje = `${mes} tiene 30 días.`;
 			break;
 		case ["Febrero"].includes(mes):
-			alert(`${mes} tiene 28 días.`)
+			mensaje = `${mes} tiene 28 días.`;
 	}
+	alert(mensaje);
 }
